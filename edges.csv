@@ -1,0 +1,684 @@
+source,target,hypotheses
+Information environment,Dividend changes,1
+Information environment,Dividend informativeness,1
+Information environment,Investment decisions,1
+Dividend changes,Dividend informativeness,1
+Cash-flow incentives for sales,Real earnings management,1
+Real earnings management,Sales leaders' anticipatory actions,1
+Interfunctional power,Real earnings management,1
+Mandatory IFRS adoption,Accounting quality,1
+Mandatory IFRS adoption,Market reaction,1
+Mandatory IFRS adoption,Debt covenants,1
+Mandatory IFRS adoption,Risk disclosure compliance,1
+Mandatory IFRS adoption,Analyst information environment,1
+Mandatory IFRS adoption,Financial reporting comparability,1
+Mandatory IFRS adoption,Investment efficiency,1
+Mandatory IFRS adoption,Cross-listing propensity,1
+Mandatory IFRS adoption,Cross-listing number of foreign countries,1
+Mandatory IFRS adoption,Cross-listing venue,1
+Mandatory IFRS adoption,Trading volume,1
+Mandatory IFRS adoption,Market liquidity,5
+Mandatory IFRS adoption,Information asymmetry,1
+Mandatory IFRS adoption,Cost of equity,3
+Mandatory IFRS adoption,Income shifting,1
+Mandatory IFRS adoption,Financial integration,1
+Mandatory IFRS adoption,Information frictions,1
+Mandatory IFRS adoption,Debt financing,1
+Mandatory IFRS adoption,Institutional investors' demand for equity,1
+Mandatory IFRS adoption,Revenue and expense matching,1
+Mandatory IFRS adoption,Share voting premium,1
+Mandatory IFRS adoption,IPO underpricing,1
+Mandatory IFRS adoption,IPO proceeds from foreign markets,1
+Mandatory IFRS adoption,Analyst forecast accuracy,2
+Mandatory IFRS adoption,Audit fees,1
+Mandatory IFRS adoption,Earnings announcement informativeness,1
+Mandatory IFRS adoption,Textual disclosure quantity,1
+Mandatory IFRS adoption,Textual disclosure comparability,1
+Mandatory IFRS adoption,Textual disclosure standardization,1
+Mandatory IFRS adoption,Textual disclosure readability,1
+Mandatory IFRS adoption,Analyst following,1
+Mandatory IFRS adoption,Institutional ownership,1
+Mandatory IFRS adoption,Disclosure quality,1
+Mandatory IFRS adoption,Voluntary disclosure,1
+Mandatory IFRS adoption,Trade credit,1
+Mandatory IFRS adoption,Capital investment,1
+Mandatory IFRS adoption,Completion of M&A deals,1
+Mandatory IFRS adoption,Valuation,1
+Mandatory IFRS adoption,Analyst forecast dispersion,1
+Mandatory IFRS adoption,Executive compensation,1
+Mandatory IFRS adoption,Equity issuance likelihood,1
+Mandatory IFRS adoption,Equity issuance size,1
+Mandatory IFRS adoption,CEO turnover,1
+Mandatory IFRS adoption,Information comparability,1
+Mandatory IFRS adoption,Investment decisions,1
+Accounting quality,World Bank lending,1
+Financial reporting comparability,Valuation,1
+Financial reporting comparability,Market liquidity,1
+Financial reporting comparability,Analyst forecast accuracy,1
+Financial reporting comparability,Analyst forecast dispersion,1
+Financial reporting comparability,Valuation performance,1
+Market liquidity,Cost of equity,1
+Market liquidity,Valuation,1
+Market liquidity,Firm value,1
+Income shifting,Local investment efficiency,1
+Analyst forecast accuracy,Firm value,1
+Textual disclosure quantity,Market liquidity,1
+Textual disclosure quantity,Analyst following,1
+Textual disclosure quantity,Institutional ownership,1
+Textual disclosure comparability,Market liquidity,1
+Textual disclosure comparability,Analyst following,1
+Textual disclosure comparability,Institutional ownership,1
+Textual disclosure standardization,Market liquidity,1
+Textual disclosure standardization,Analyst following,1
+Textual disclosure standardization,Institutional ownership,1
+Textual disclosure readability,Market liquidity,1
+Textual disclosure readability,Analyst following,1
+Textual disclosure readability,Institutional ownership,1
+Analyst following,Analyst forecast accuracy,1
+Analyst following,Information usefulness,1
+Analyst following,Firm value,2
+Institutional ownership,Trading volume,1
+Disclosure quality,Market liquidity,1
+Disclosure quality,Audit fees,1
+Voluntary disclosure,Market liquidity,1
+Voluntary disclosure,Initial coin offerings,1
+Voluntary disclosure,Cost of capital,1
+Valuation,Stock recommendations,1
+Valuation,Future excess returns,1
+Timely loan loss recognition,Bank lending corruption,1
+Government ownership,Bank lending corruption,1
+Government ownership,Cost of equity,1
+Government ownership,Financial reporting comparability,1
+Government ownership,Auditor choice,1
+Auditor choice,Cost of equity,2
+Auditor choice,Corporate debt maturity,1
+Auditor choice,Earnings quality,1
+Auditor choice,Ownership concentration,1
+Auditor choice,Earnings management,1
+Auditor choice,Firm transparency,1
+Auditor choice,Valuation,1
+Bank system deposit insurance,Bank lending corruption,1
+Accounting standards differences,Earnings informativeness,1
+Accounting standards differences,Analyst forecast accuracy,1
+Accounting standards differences,Foreign analyst following,1
+Accounting standards differences,Foreign analyst forecast accuracy,1
+Accounting standards differences,Stock returns,1
+Accounting standards differences,Financial reporting comparability,1
+Accounting standards differences,Future operating cash flows,1
+Accounting standards differences,Market valuation,1
+Accounting standards differences,Executive compensation,1
+Accounting standards differences,Investment decisions,1
+Disclosure practices,Earnings informativeness,1
+Corporate governance,Earnings informativeness,1
+Corporate governance,Tax avoidance,1
+Corporate governance,Earnings announcement informativeness,1
+Corporate governance,Stock returns,1
+Tax avoidance,Dividend policy,1
+Tax avoidance,Financial performance,1
+Tax avoidance,Overinvestment,1
+Accounting standards reconciliation,Value relevance,1
+Accounting standards reconciliation,Trading volume,2
+Accounting standards reconciliation,Analyst forecast accuracy,1
+Accounting standards reconciliation,Stock returns,1
+Dividend tax,Tax avoidance,1
+Dividend tax,Foreign portfolio investment,1
+Dividend tax,Foreign equity holding company,1
+Corporate tax rate,Loan loss provision,1
+Corporate tax rate,Timely loan loss recognition,1
+Corporate tax rate,Risk-taking,1
+Loan loss provision deductibility,Loan loss provision,1
+Loan loss provision deductibility,Timely loan loss recognition,1
+Loan loss provision deductibility,Risk-taking,1
+Non-performing loans,Timely loan loss recognition,1
+PCAOB inspection,Auditor market share,1
+PCAOB inspection,Management forecast accuracy,1
+PCAOB inspection,Financial reporting comparability,1
+PCAOB inspection,Audit quality,1
+PCAOB inspection,Institutional investors' home bias,1
+PCAOB inspection,Capital raising,1
+PCAOB inspection,Investment decisions,1
+Audit quality,World Bank lending,1
+Capital raising,Credit supply,1
+Pre-adoption information quality,Market reaction,1
+SOX adoption,Analyst forecast accuracy,1
+SOX adoption,Analyst forecast dispersion,1
+SOX adoption,Bond market,1
+SOX adoption,Stock returns,2
+SOX adoption,Cross-delisting,1
+Mandatory IAS adoption,Analyst forecast accuracy,1
+Mandatory IAS adoption,Accounting quality,1
+Profitability,Stock price,1
+Profitability,Capital investment,1
+Profitability,Equity,1
+Profitability,Stock returns,1
+Stock price,Capital investment,1
+Stock price,Completion of M&A deals,1
+Profitability growth,Stock price,1
+Stock safety,Stock price,1
+Book-tax conformity,Tax avoidance,1
+Book-tax conformity,Earnings quality,1
+Book-tax conformity,Earnings management,1
+Book-tax conformity,Audit fees,1
+Earnings quality,Earnings announcement informativeness,1
+Earnings quality,Price informativeness,1
+Earnings management,Profitability,1
+Earnings management,Analyst forecast accuracy,1
+Tax regime,Tax avoidance,1
+Tax regime,Income shifting,1
+Tax enforcement,Tax avoidance,1
+Tax enforcement,Income shifting,1
+Tax enforcement,Tax evasion,1
+Tax enforcement,Value relevance,1
+Investor protection,Dividend policy,1
+Investor protection,Financial performance,1
+Investor protection,Overinvestment,1
+Investor protection,Analyst forecast accuracy,1
+Investor protection,Financial reporting comparability,1
+Investor protection,Cost of equity,1
+Investor protection,Earnings quality,1
+Investor protection,Cross‐listed firms' SOX compliance,1
+Investor protection,Revenue and expense matching,1
+Investor protection,Value relevance,1
+Investor protection,Analyst following,1
+Investor protection,Firm value,1
+Investor protection,Directorial labor market,1
+Investor protection,Asymmetric timeliness,1
+Investor protection,Voluntary disclosure,1
+Mandatory auditor reporting,Risk-taking,1
+Bank transparency,Credit supply,1
+Financial liquidity,Credit supply,1
+Bank securitization,Credit supply,1
+Foreign competition for shares,Cost of equity,1
+Importance of debt markets,Timeliness,1
+Importance of debt markets,Conservatism,1
+Importance of equity markets,Timeliness,1
+Importance of equity markets,Conservatism,1
+Cross-listing,Cost of credit capital,1
+Cross-listing,Audit fees,1
+Cross-listing,Tax avoidance,1
+Cross-listing,Earnings management,2
+Cross-listing,Analyst following,1
+Cross-listing,Analyst forecast accuracy,1
+Cross-listing,Timely loss recognition,1
+Cross-listing,Value relevance,1
+Cross-listing,Institutional ownership,1
+Labor adjustment costs,Cost stickiness,1
+Future excess returns,Stock recommendations,1
+Individual investor participation,Stock recommendations,1
+Individual investor participation,Future excess returns,1
+Analyst characteristics,Analyst forecast accuracy,2
+Legal regime,Analyst forecast accuracy,1
+Legal regime,Financial transparency,1
+Legal regime,Governance transparency,1
+Legal regime,Real earnings management,1
+Legal regime,Big 4 audit fees,1
+Legal regime,Big 4 audit fees premium,1
+Legal regime,Cost stickiness,1
+Legal regime,Voluntary disclosure,1
+Financial transparency,Analyst forecast accuracy,1
+Financial transparency,Tax avoidance,1
+Country-pair homophily,Foreign director appointments,1
+IFRS adoption,Financial reporting comparability,1
+Government political orientation,Cost of equity,1
+Democracy,Cost of equity,1
+Government stability,Cost of equity,1
+Government expropriation risk,Cost of equity,1
+MNC-parent incentives,Subsidiary earnings management,1
+MNC structure,Subsidiary earnings management,1
+MNC-parent balance sheet bloat,Subsidiary earnings management,1
+Subsidiary integration,Subsidiary earnings management,1
+Subsidiary earnings management opportunity,Subsidiary earnings management,1
+Subsidiary country institutional quality,Subsidiary earnings management,1
+Parent country institutional quality,Subsidiary earnings management,1
+Regulatory arbitrage opportunities,Subsidiary earnings management,1
+Tax rate,Income shifting,1
+MNC listing status,Income shifting,1
+Accounting earnings,Earnings opacity,1
+Accounting earnings,CEO turnover,1
+Earnings opacity,Cost of equity,1
+Earnings opacity,Trading volume,1
+Dividend uncertainty,Information demand,1
+Analyst dividend forecast,Forecast usefulness,1
+Broker characteristics,Analyst forecast accuracy,1
+Institutional characteristics,Analyst forecast accuracy,1
+Regulatory characteristics,Analyst forecast accuracy,1
+Target price characteristics,Analyst forecast accuracy,1
+EPS forecast characteristics,Analyst forecast accuracy,1
+Firm characteristics,Analyst forecast accuracy,1
+Mandatory disclosure,Voluntary disclosure,1
+Mandatory disclosure,Market liquidity,1
+Mandatory disclosure,MNC payment to host government,1
+Mandatory disclosure,Capital investment,1
+Regulatory harmonization,Cross-border labor migration,1
+Capital gain taxes,Pricing spread,1
+Arbitrage,Pricing spread,1
+Transfer pricing incentives,Transfer pricing,1
+Governmental coordination,Transfer pricing,1
+Corporate coordination,Transfer pricing,1
+Organizational structure,Earnings quality demand,1
+Organizational structure,Earnings management,1
+Organizational structure,Earnings quality,1
+Disclosure regulation,M&A activity,1
+Disclosure regulation,Cost of equity,2
+Disclosure regulation,Ownership concentration,1
+Disclosure regulation,IPO underpricing,1
+Disclosure regulation,Voluntary disclosure,1
+Financial reporting opacity,Trading opacity,1
+Financial reporting opacity,Stock price crash risk,1
+Financial reporting opacity,Institutional informed trading,1
+Country-level earnings quality,IPO underpricing,1
+Internal governance,Initial coin offerings,1
+Information intermediaries,Initial coin offerings,1
+IP box,M&A,1
+IP box tax planning,M&A,1
+IP box transaction cost,M&A,1
+Accounting choice conformity,Institutional ownership,1
+Firm visibility,Institutional ownership,1
+Analyst-country institutional infrastructure,Analyst forecast optimism,1
+Analyst-country institutional infrastructure,Analyst return predictivity,1
+Financial reporting regulation,Industry-wide resource allocation,1
+Managers' cultural background,Disclosure tone,1
+Manager exposure to different culture,Disclosure tone,1
+Manager collectivism,Analyst reaction,1
+Analyst collectivism,Analyst reaction,1
+Linguistic opacity,Market reaction,1
+Firm location,Market reaction,1
+Anglophone manager,Market reaction,1
+Regulatory environment,Audit fees,1
+Institutional differences in loans,Credit spread,1
+Institutional differences in loans,Borrower-lender relationship,1
+Institutional differences in loans,Loan syndicate,1
+Institutional differences in loans,Reliance on financial covenants,1
+Institutional differences in loans,Financial covenants,1
+Political economy,Financial transparency,1
+Political economy,Governance transparency,1
+Accounting discretion,Risk-taking,1
+Enforcement regimes,Analyst information environment,1
+Domestic accounting standards,Analyst information environment,1
+Auditor specialization,Audit fees,1
+Auditor type,Financial reporting comparability,1
+Board independence,Financial reporting comparability,1
+Political connections,Earnings quality,1
+Political connections,Auditor choice,1
+Book value,Expected stock returns,1
+Book value,Equity,1
+Foreign component auditors,MNC valuation,1
+Foreign component auditors,Financial reporting quality,1
+Financial reporting quality,Investment efficiency,1
+Financial reporting quality,Audit fees,1
+Financial reporting quality,Valuation,1
+Financial reporting quality,Market liquidity,1
+Financial reporting quality,Analyst forecast accuracy,1
+Financial reporting quality,Analyst forecast dispersion,1
+Disclosure,Investment efficiency,1
+Economic freedom,Capital investment,1
+Economic freedom,Equity,1
+Economic freedom,Stock returns,1
+Political uncertainty,Investor demand for financial reporting quality,1
+Political uncertainty,Cost stickiness,1
+Electoral margin,Investor demand for financial reporting quality,1
+Government involvement in economy,Investor demand for financial reporting quality,1
+Transaction costs,Investor demand for financial reporting quality,1
+Financing source,Investment efficiency,1
+Tax incentives,Investment efficiency,1
+Tax incentives,Foreign profits,1
+Tax incentives,R&D investment,1
+Tax incentives,Production location,1
+R&D investment,Revenue and expense matching,1
+IFRS version,Trading volume,1
+Country institution,Tax avoidance,1
+Country institution,Information usefulness,1
+Auditor quality,Real earnings management,1
+Financial disclosure,Capital market entry,1
+Financial disclosure,Earnings announcement informativeness,1
+Country legal liability,Audit fees,1
+Capital-raising needs,Auditor choice,1
+Capital-raising needs,Voluntary disclosure,1
+Capital-raising needs,Earnings management,1
+Firm transparency,Interindustry resource allocation,1
+Firm transparency,Tax avoidance,1
+Firm transparency,Market liquidity,2
+Firm transparency,Cost of equity,1
+Firm transparency,Valuation,1
+Firm transparency,Firm liquidity,1
+Firm transparency,Firm liquidity covariability with market liquidity,1
+Firm transparency,Firm liquidity covariability with market returns,1
+Firm transparency,Innovative effort,1
+Firm transparency,Management turnover,1
+Firm transparency,Innovative output,1
+Firm transparency,Innovative efficiency,1
+Country legal environment,Auditor choice,1
+Country legal environment,Income smoothing,1
+Country legal environment,Foreign earnings management,1
+Country legal environment,Cost of equity,1
+Firm risks,Auditor choice,1
+Changes in enforcement,Market liquidity,1
+FCPA enforcement,FDI in corrupt countries,1
+Domestic security regulation,Household equity ownership,1
+Foreign security regulation,Household equity ownership,1
+Trust in stock market,Household equity ownership,1
+Valuation ratios,Future returns,1
+Valuation ratios,Future profitability,1
+Valuation ratios,Future P/B ratios,1
+Net transfer tax,Cross-border dividend,1
+Net transfer tax,Cross-border interest,1
+Net transfer tax,Cross-border royalty,1
+Net transfer tax,Cross-border management fee,1
+Time trend,Financial reporting comparability,1
+Voluntary IAS adoption,Foreign ownership,1
+Foreign ownership,Auditor choice,1
+Asset age,Asset turnover ratio,1
+Asset age,Asset turnover forecast error,1
+Asset turnover forecast error,Stock price,1
+Voluntary IFRS adoption,Market liquidity,1
+Voluntary IFRS adoption,Information asymmetry,1
+Voluntary IFRS adoption,Cost of equity,1
+Voluntary IFRS adoption,Information usefulness,1
+Voluntary IFRS adoption,Cost of credit capital,1
+Voluntary IFRS adoption,Credit availability,1
+Voluntary IFRS adoption,Loan nonprice terms,1
+Voluntary IFRS adoption,Loan ownership structure,1
+Wage savings,Foreign profits,1
+Affiliate profitability,Income shifting,1
+Geographic disclosures,Capital investment,1
+Geographic disclosures,Labor investment,1
+Geographic disclosures,Organizational structure,1
+Fair value accounting,Performance evaluation role of earnings,1
+Insider trading law enforcement,Earnings announcement informativeness,1
+Insider trading law enforcement,Timely loss recognition,1
+Insider trading law enforcement,Earnings management,1
+Frequency of earnings reporting,Earnings announcement informativeness,1
+Financial statement based forecast accuracy,Analyst forecast accuracy,1
+Concurrent enforcement changes,Analyst forecast accuracy,1
+Analyst forecast condition,Analyst forecast accuracy,1
+Foreign exchange risk,Income shifting,1
+Foreign currency hedging,Income shifting,1
+Insider trading restrictions,Executive compensation,1
+CSR disclosure,Analyst forecast accuracy,1
+Stakeholder orientation,Analyst forecast accuracy,1
+Individualism,Earnings momentum,1
+Individualism,Accounting conservatism,1
+Individualism,Risk-taking,1
+Uncertainty avoidance,Earnings momentum,1
+Uncertainty avoidance,Accounting conservatism,1
+Uncertainty avoidance,Risk-taking,1
+Relationship-specific investment,Income smoothing,1
+Disclosure frequency,Market value of cash,1
+Offshore operations in tax havens,Foreign earnings management,1
+Offshore operations in tax havens,Tax avoidance,1
+Foreign operations located in tax havens,MNC corporate tax rates,1
+Foreign operations located in non-tax havens,MNC corporate tax rates,1
+Corruption in subsidiary country,Foreign equity holding company,1
+Foreign investment risk in subsidiary country,Foreign equity holding company,1
+Trapped cash,Profitability of foreign acquisitions,1
+Repatriation tax holiday,Profitability of foreign acquisitions,1
+Global audit firm networks,Financial reporting comparability,1
+ISA adoption,Financial reporting comparability,1
+Economic policy uncertainty,Accounting quality,1
+Firm home country,Cost of equity,1
+Legal institutions,Corporate debt maturity,1
+Big 4 affiliates,Income shifting,1
+Incorporation of regional coordinating agencies,Income shifting,1
+Institutional quality,Dividend policy,1
+Institutional quality,Capital raising,1
+Mandatory quarterly reporting,Real activities manipulation,1
+Real activities manipulation,Operating performance,1
+Price pressure,Real activities manipulation,1
+Reporting informativeness,Real activities manipulation,1
+Reporting regulatory environment,Earnings management,1
+Domicile,Earnings management,1
+MiFID II implementation,Analyst coverage,1
+MiFID II implementation,Analyst coverage quality,1
+MiFID II implementation,Buy-side analyst research efforts,1
+Analyst coverage importance,Analyst coverage,1
+Foreign institutional ownership,Financial reporting convergence,1
+Foreign institutional ownership,Capital investment,1
+Foreign institutional ownership,Voluntary disclosure,1
+CSR reporting mandate,CSR transparency,1
+CSR reporting mandate,CSR activities,1
+CSR reporting mandate,Environmental improvement,1
+CSR reporting mandate,Social improvement,1
+TITF banks,Reclassification of financial assets,1
+Bank-specific information environment,Value relevance,1
+Investor experience with recognized fair value,Value relevance,1
+Capital intensity,Value-based management sophistication,1
+Firm diversification,Value-based management sophistication,1
+Anglo-American institutional ownership,Value-based management sophistication,1
+Value-based management environment,Value-based management sophistication,1
+GAAP similarity,M&A activity,1
+Country enforcement,M&A activity,1
+Country enforcement,IFRS non-adoption,1
+Firm liquidity,Firm value,1
+Firm liquidity covariability with market liquidity,Firm value,1
+Firm liquidity covariability with market returns,Firm value,1
+Innovative output,Management turnover,1
+Firm incentives,Assurance services demand,1
+Firm incentives,Goodwill impairment,1
+Country attributes,Assurance services demand,1
+Investor gender bias,Investment,1
+Stock exchange disclosure,Financial market development,1
+Accounting irregularity announcement,Market reaction,1
+Foreign firm,Market reaction,1
+Home country market reaction,Market reaction,1
+Managerial incentive,Goodwill impairment,1
+Accounting enforcement system,Goodwill impairment,1
+Sovereign wealth fund investment,Discretionary accruals,1
+Antidumping investigation,Earnings management,1
+Tariff,Earnings management,1
+Geographic distance,Earnings management,1
+Geographic distance,Disclosure readability,1
+Geographic distance,Use of numbers in disclosure,1
+Disclosure readability,Foreign institutional ownership,1
+Use of numbers in disclosure,Foreign institutional ownership,1
+Imports,Earnings management,1
+Accrual accounting,Corporate tax revenues,1
+Accrual accounting,Revenue and expense matching,1
+Accrual accounting,Value relevance,1
+Corporate sector growth,Corporate tax revenues,1
+Ownership structure,Cross‐listed firms' SOX compliance,1
+Ownership structure,Analyst following,1
+Ownership structure,Firm value,1
+Private insider controlled firms,Earnings management,1
+Asset impairment,Future operating cash flows,1
+Societal trust,Management earnings forecast,1
+Formal institutions,Management earnings forecast,1
+Credibility-enhancing mechanisms,Management earnings forecast,1
+Future-time reference language,Management forecast frequency,1
+Future-time reference language,Management forecast horizon,1
+Future-time reference language,Earnings management,1
+Future-time reference language,Real earnings management,1
+Future-time reference language,Tax avoidance,1
+Burden of proof in lawsuits,Ownership concentration,1
+Agency conflict,Auditor choice,1
+Governance institutions,Auditor choice,1
+Securities regulation,Cost of equity,1
+Legal enforcement,Cost of equity,1
+Legal enforcement,Debt covenants,1
+Legal enforcement,Audit fees,1
+Legal enforcement,Stock returns,1
+Legal enforcement,Equity issuance likelihood,1
+Legal enforcement,Equity issuance size,1
+Legal enforcement,Earnings management,1
+Corporate scandals,Regulation,1
+Regulation,Corporate scandals,1
+Regulation,Security mispricing,1
+Information shocks,Dividend policy,1
+Information shocks,Tax avoidance,1
+Auditor non-GAAP reliance,Audit quality,1
+Auditor non-GAAP reliance,Financial reporting quality,1
+Shareholder control divergence,Earnings management,1
+Minority shareholder protection,Earnings management,1
+Product market competition,Earnings management,1
+Press diffusion,Earnings management,1
+Tax compliance,Earnings management,1
+Country-level disclosure,Price informativeness,1
+Insider trading laws,Price informativeness,1
+Information dissemination,Price informativeness,1
+Capital gain tax structure,Long-term investment,1
+Economic growth,Revenue and expense matching,1
+Service sector weight,Revenue and expense matching,1
+Local audit oversight,Institutional investors' home bias,1
+Regulatory enforcement,Anti-corruption effort,1
+Monitoring,Anti-corruption effort,1
+Corruption risks,Anti-corruption effort,1
+Board governance effectiveness,Anti-corruption effort,1
+Cross-country product competition,Profitability,1
+Cross-country capital competition,Profitability,1
+Cross-country labor market competition,Profitability,1
+Creditor rights,Debt covenants,1
+Ownership-control wedge,Stock price crash risk,1
+Accounting policy disclosure,Analyst forecast dispersion,1
+Accounting policy disclosure,Analyst forecast accuracy,1
+Accounting choice,Analyst forecast dispersion,1
+Accounting choice,Analyst forecast accuracy,2
+Annual report disclosure,Analyst forecast accuracy,1
+Accounting standards enforcement,Analyst forecast accuracy,1
+Compliance costs,Deregistration from U.S.,1
+Compliance costs,Foreign portfolio investment,1
+Loss of private benefits of control,Deregistration from U.S.,1
+Social connections,Business connections,1
+Intra-firm cross-border collaboration,R&D investment,1
+IP protection,R&D investment,1
+Innovation resources,R&D investment,1
+Asset use,Value relevance,1
+Credit rating agency market power,Credit rating standards stringency,1
+SEC exemption,Cross-listing,1
+Involuntary cross-listing,Firm value,1
+Non-financial target difficulty,Target completion,1
+Withholding tax,Foreign portfolio investment,1
+Contracting-based demand,Timely loss recognition,1
+Strong internal monitors,Timely loss recognition,1
+Role of equity markets,Timely loss recognition,1
+Cross-border financing,Bank competition,1
+Cross-border financing,Risk-taking,1
+Analyst base-case valuation,Analyst forecast accuracy,1
+Analyst base-case valuation,Stock returns,1
+Country-by-country reporting,Income shifting,2
+Country-by-country reporting,Tax avoidance,2
+TRA 86,Production location,1
+Dividend tax change,Market reaction,1
+Non-microcap firm,Market reaction,1
+Country transparency,Tax avoidance,1
+Tax surprise,Value relevance,1
+Capital market interaction,Disclosure practice convergence,1
+Product market interaction,Disclosure practice convergence,1
+Labor market interaction,Disclosure practice convergence,1
+Insider ownership,Home bias,1
+Country-level governance,Home bias,1
+Country-level governance,Earnings announcement informativeness,1
+Corporate takeover threat,Accounting conservatism,1
+Audit complexity,Audit fees,1
+Private firm disclosure,Public equity demand,1
+Information efficiency,Analyst portfolio structure,1
+Analyst portfolio structure,Analyst forecast accuracy,1
+Revenue potential,Analyst portfolio structure,1
+Broker culture,Analyst portfolio structure,1
+Firm-level book-tax differences,Audit fees,1
+Loan loss provision estimates change,Future bank risk,1
+Loan loss provision information,Market reaction,1
+PCAOB inspection access,Audit quality,1
+PCAOB inspection access,Earnings management,1
+PCAOB inspection access,Cost of equity,1
+Client PCAOB inspection risk,Audit quality,1
+Monitoring quality,Cost of equity,1
+Geo-political interest alignment with U.S.,World Bank lending,1
+Corruption,World Bank lending,1
+Investor information demand,Market liquidity,1
+Market downturns,Market liquidity,1
+Market downturns,Firm liquidity,1
+Market downturns,Firm liquidity covariability with market liquidity,1
+Market downturns,Firm liquidity covariability with market returns,1
+Non-local accounting standards,Textual disclosure quantity,1
+Non-local accounting standards,Textual disclosure comparability,1
+Non-local accounting standards,Textual disclosure standardization,1
+Non-local accounting standards,Textual disclosure readability,1
+Oversight,Textual disclosure quantity,1
+Oversight,Textual disclosure comparability,1
+Oversight,Textual disclosure standardization,1
+Oversight,Textual disclosure readability,1
+Information uncertainty,Security mispricing,1
+Political environment,Cost stickiness,1
+Directors' shareholder friendliness,Directorial labor market,1
+Tax havens,Cost of equity,1
+Firm tax risk,Cost of equity,1
+Firm information risk,Cost of equity,1
+Country exposure,Firm fundamentals forecast,1
+Country exposure,Stock returns,1
+Corporate governance reforms,Cross-listing,1
+Corporate governance reforms,Cross-listing venue,1
+Corporate governance reforms,Institutional ownership,1
+Management learning,Completion of M&A deals,1
+Firm listing status,Disclosure readability,1
+Firm listing status,Use of numbers in disclosure,1
+Firm listing status,Asymmetric timeliness,1
+English-speaking country,Disclosure readability,1
+English-speaking country,Use of numbers in disclosure,1
+Accounting distance,Disclosure readability,1
+Accounting distance,Use of numbers in disclosure,1
+Investor protection distance,Disclosure readability,1
+Investor protection distance,Use of numbers in disclosure,1
+Fair value reporting,Value relevance,1
+Reliability of fair value measures,Value relevance,1
+Investor information cost,Value relevance,1
+Shareholder-empowering governance regulations,Shareholder activism,1
+Shareholder-empowering governance regulations,Corporate outcomes,1
+Foreign reinvestment,Income shifting,1
+Country-level tax,Profitability,1
+Innovation,Profitability,1
+Open borders,Profitability,1
+Joint provision of CSR and financial assurance service,Auditors' CSR risk assessment,1
+Transfer pricing risk,Cross-border M&A premium,1
+Expected transfer pricing tax benefit,Cross-border M&A premium,1
+Audit profession development,Audit quality,1
+Audit profession development,Auditor choice,1
+Foreign enforcement regime,SEC monitoring,1
+U.S. investor exposure,SEC monitoring,1
+Foreign operations,Executive compensation,1
+Domestic peers,Executive compensation,1
+Creditor protection,Asymmetric timeliness,1
+Accruals persistence,Stock price,1
+Implementation issues,IFRS non-adoption,1
+Reporting incentives,IFRS non-adoption,1
+Reporting incentives,Stock returns,1
+Perceived network benefits,Mandatory IFRS adoption,1
+Company credibility need,Sustainability report assurance,1
+Company credibility need,Choice of assurance provider,1
+Country business culture,Sustainability report assurance,1
+Country business culture,Choice of assurance provider,1
+Embedded value reporting,Firm transparency,1
+Embedded value reporting quality,Firm transparency,1
+Takeover markets,Embedded value reporting,1
+Managerial avoidance of volatile income measures,Embedded value reporting,1
+Regulatory intervention risk,Embedded value reporting,1
+Analysts’ information advantage,Embedded value reporting,1
+Corporate tax policy,Macroeconomic growth,1
+Government tax incentives,Macroeconomic growth,1
+Corporate tax planning,Macroeconomic growth,1
+PCAOB inspection result,Capital raising,1
+PCAOB inspection result,Investment decisions,1
+Growth opportunity,Investment decisions,1
+Cross-border frictions,Investment decisions,1
+Parent firm involvement,Investment decisions,1
+SEC enforcement,Non-target firm valuation,1
+Tail risk,CEO turnover,1
+Familiarity with firm's home country,Voluntary disclosure,1
+Investment horizon,Voluntary disclosure,1
+Economic integration,Stock returns,1
+MNC tax incentives,Offshored job location,1
+Within-firm offshored jobs,Offshored job location,1
+Politically sensitive jobs,Offshored job location,1
+Job offshoring,Tax burdens,1
+Financial reporting enforcement,CEO turnover,1
+Firm compliance incentive,CEO turnover,1
+Accounting changes,CEO turnover,1
+Loss provision de-recognition,CEO turnover,1
+Financial reporting environment,Capital mobility,1
+Institutional distances,Reliance on formal controls,1
+Non-audit services,Stock returns,1
+Business complexity,Stock returns,1
+Policy extension period,Stock returns,1
+Compensation structure,Stock returns,1
+Managerial career risks,Innovative effort,1
+Investment opportunity,Innovative effort,1
+Monitoring demand,Innovative efficiency,1
+Proprietary cost,Innovative efficiency,1

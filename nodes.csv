@@ -1,0 +1,576 @@
+node,category,external,in_degree,out_degree,degree,hypotheses_as_iv,hypotheses_as_dv,stream
+Information environment,Market Participants & Information Environment,False,0,3,3,3,0,5. Investment decisions and audit oversight
+Dividend changes,Tax & Financial Planning,False,1,1,2,1,1,5. Investment decisions and audit oversight
+Dividend informativeness,Market Characteristics & Outcomes,False,2,0,2,0,2,5. Investment decisions and audit oversight
+Investment decisions,Tax & Financial Planning,False,8,0,8,0,8,5. Investment decisions and audit oversight
+Cash-flow incentives for sales,Corporate Governance & Control,False,0,1,1,1,0,9. Legal regime and earnings management
+Real earnings management,Corporate Governance & Control,False,5,1,6,1,5,9. Legal regime and earnings management
+Sales leaders' anticipatory actions,Corporate Governance & Control,False,1,0,1,0,1,9. Legal regime and earnings management
+Interfunctional power,Corporate Governance & Control,False,0,1,1,1,0,9. Legal regime and earnings management
+Mandatory IFRS adoption,Financial Reporting & Disclosure,False,1,45,46,52,1,1. IFRS adoption and market liquidity
+Accounting quality,Financial Reporting & Disclosure,False,3,1,4,1,3,5. Investment decisions and audit oversight
+Market reaction,Market Characteristics & Outcomes,False,11,0,11,0,11,Smaller community
+Debt covenants,Tax & Financial Planning,False,3,0,3,0,3,8. Earnings management and enforcement
+Risk disclosure compliance,Financial Reporting & Disclosure,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Analyst information environment,Market Participants & Information Environment,False,3,0,3,0,3,1. IFRS adoption and market liquidity
+Financial reporting comparability,Financial Reporting & Disclosure,False,11,5,16,5,11,2. Analyst forecasts and reporting quality
+Investment efficiency,Tax & Financial Planning,False,5,0,5,0,5,Smaller community
+Cross-listing propensity,International Business & Cross-border Activities,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Cross-listing number of foreign countries,International Business & Cross-border Activities,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Cross-listing venue,International Business & Cross-border Activities,False,2,0,2,0,2,1. IFRS adoption and market liquidity
+Trading volume,Market Characteristics & Outcomes,False,5,0,5,0,6,Smaller community
+Market liquidity,Market Characteristics & Outcomes,False,15,3,18,3,20,1. IFRS adoption and market liquidity
+Information asymmetry,Market Participants & Information Environment,False,2,0,2,0,2,1. IFRS adoption and market liquidity
+Cost of equity,Tax & Financial Planning,False,23,0,23,0,27,12. Cost of equity and legal environment
+Income shifting,Tax & Financial Planning,False,12,1,13,1,13,3. Tax avoidance and investor protection
+Financial integration,Market Characteristics & Outcomes,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Information frictions,Communication,True,1,0,1,0,1,1. IFRS adoption and market liquidity
+Debt financing,Tax & Financial Planning,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Institutional investors' demand for equity,Market Participants & Information Environment,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Revenue and expense matching,Financial Reporting & Disclosure,False,6,0,6,0,6,3. Tax avoidance and investor protection
+Share voting premium,Market Participants & Information Environment,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+IPO underpricing,Market Characteristics & Outcomes,False,3,0,3,0,3,11. Voluntary disclosure and regulation
+IPO proceeds from foreign markets,Market Characteristics & Outcomes,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Analyst forecast accuracy,Market Participants & Information Environment,False,31,1,32,1,34,2. Analyst forecasts and reporting quality
+Audit fees,Audit & Assurance,False,11,0,11,0,11,8. Earnings management and enforcement
+Earnings announcement informativeness,Financial Reporting & Disclosure,False,7,0,7,0,7,6. Standards differences and disclosure informativeness
+Textual disclosure quantity,Financial Reporting & Disclosure,False,3,3,6,3,3,1. IFRS adoption and market liquidity
+Textual disclosure comparability,Financial Reporting & Disclosure,False,3,3,6,3,3,1. IFRS adoption and market liquidity
+Textual disclosure standardization,Communication,True,3,3,6,3,3,1. IFRS adoption and market liquidity
+Textual disclosure readability,Communication,True,3,3,6,3,3,1. IFRS adoption and market liquidity
+Analyst following,Market Participants & Information Environment,False,8,3,11,4,8,1. IFRS adoption and market liquidity
+Institutional ownership,Market Participants & Information Environment,False,9,1,10,1,9,1. IFRS adoption and market liquidity
+Disclosure quality,Financial Reporting & Disclosure,False,1,2,3,2,1,1. IFRS adoption and market liquidity
+Voluntary disclosure,Financial Reporting & Disclosure,False,9,3,12,3,9,11. Voluntary disclosure and regulation
+Trade credit,Business Financial,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Capital investment,Tax & Financial Planning,False,7,0,7,0,7,4. Firm performance and investment
+Completion of M&A deals,Business Non-financial,False,3,0,3,0,3,4. Firm performance and investment
+Valuation,Market Characteristics & Outcomes,False,6,2,8,2,6,2. Analyst forecasts and reporting quality
+Analyst forecast dispersion,Market Participants & Information Environment,False,6,0,6,0,6,2. Analyst forecasts and reporting quality
+Executive compensation,Corporate Governance & Control,False,5,0,5,0,5,6. Standards differences and disclosure informativeness
+Equity issuance likelihood,Tax & Financial Planning,False,2,0,2,0,2,8. Earnings management and enforcement
+Equity issuance size,Tax & Financial Planning,False,2,0,2,0,2,8. Earnings management and enforcement
+CEO turnover,Corporate Governance & Control,False,7,0,7,0,7,Smaller community
+Information comparability,Market Participants & Information Environment,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+World Bank lending,Political Science,True,4,0,4,0,4,5. Investment decisions and audit oversight
+Timely loan loss recognition,Financial Reporting & Disclosure,False,3,1,4,1,3,13. Bank risk-taking and state ownership
+Bank lending corruption,Banking & Financial Institutions,False,3,0,3,0,3,13. Bank risk-taking and state ownership
+Government ownership,Political Science,True,0,4,4,4,0,13. Bank risk-taking and state ownership
+Auditor choice,Audit & Assurance,False,9,7,16,8,9,10. Auditor choice and earnings quality
+Bank system deposit insurance,Banking & Financial Institutions,False,0,1,1,1,0,13. Bank risk-taking and state ownership
+Accounting standards differences,Financial Reporting & Disclosure,False,0,10,10,10,0,6. Standards differences and disclosure informativeness
+Earnings informativeness,Market Characteristics & Outcomes,False,3,0,3,0,3,6. Standards differences and disclosure informativeness
+Foreign analyst following,Market Participants & Information Environment,False,1,0,1,0,1,6. Standards differences and disclosure informativeness
+Foreign analyst forecast accuracy,Market Participants & Information Environment,False,1,0,1,0,1,6. Standards differences and disclosure informativeness
+Stock returns,Market Characteristics & Outcomes,False,15,0,15,0,16,4. Firm performance and investment
+Future operating cash flows,Tax & Financial Planning,False,2,0,2,0,2,6. Standards differences and disclosure informativeness
+Market valuation,Market Characteristics & Outcomes,False,1,0,1,0,1,6. Standards differences and disclosure informativeness
+Disclosure practices,Financial Reporting & Disclosure,False,0,1,1,1,0,6. Standards differences and disclosure informativeness
+Corporate governance,Corporate Governance & Control,False,0,4,4,4,0,6. Standards differences and disclosure informativeness
+Tax avoidance,Tax & Financial Planning,False,14,3,17,3,15,3. Tax avoidance and investor protection
+Accounting standards reconciliation,Financial Reporting & Disclosure,False,0,4,4,5,0,Smaller community
+Value relevance,Market Characteristics & Outcomes,False,12,0,12,0,12,3. Tax avoidance and investor protection
+Dividend tax,Tax & Financial Planning,False,0,3,3,3,0,Smaller community
+Foreign portfolio investment,Tax & Financial Planning,False,3,0,3,0,3,Smaller community
+Foreign equity holding company,Market Participants & Information Environment,False,3,0,3,0,3,Smaller community
+Dividend policy,Tax & Financial Planning,False,4,0,4,0,4,3. Tax avoidance and investor protection
+Financial performance,Business Financial,False,2,0,2,0,2,3. Tax avoidance and investor protection
+Overinvestment,Tax & Financial Planning,False,2,0,2,0,2,3. Tax avoidance and investor protection
+Corporate tax rate,Tax & Financial Planning,False,0,3,3,3,0,13. Bank risk-taking and state ownership
+Loan loss provision,Banking & Financial Institutions,False,2,0,2,0,2,13. Bank risk-taking and state ownership
+Risk-taking,Banking & Financial Institutions,False,7,0,7,0,7,13. Bank risk-taking and state ownership
+Loan loss provision deductibility,Financial Reporting & Disclosure,False,0,3,3,3,0,13. Bank risk-taking and state ownership
+Non-performing loans,Banking & Financial Institutions,False,0,1,1,1,0,13. Bank risk-taking and state ownership
+PCAOB inspection,Oversight & Regulation,False,0,7,7,7,0,5. Investment decisions and audit oversight
+Auditor market share,Audit & Assurance,False,1,0,1,0,1,5. Investment decisions and audit oversight
+Management forecast accuracy,Corporate Governance & Control,False,1,0,1,0,1,5. Investment decisions and audit oversight
+Audit quality,Audit & Assurance,False,5,1,6,1,5,5. Investment decisions and audit oversight
+Institutional investors' home bias,Psychology,True,2,0,2,0,2,5. Investment decisions and audit oversight
+Capital raising,Tax & Financial Planning,False,3,1,4,1,3,5. Investment decisions and audit oversight
+Pre-adoption information quality,Market Participants & Information Environment,False,0,1,1,1,0,Smaller community
+SOX adoption,Oversight & Regulation,False,0,5,5,6,0,2. Analyst forecasts and reporting quality
+Bond market,Market Characteristics & Outcomes,False,1,0,1,0,1,2. Analyst forecasts and reporting quality
+Cross-delisting,International Business & Cross-border Activities,False,1,0,1,0,1,2. Analyst forecasts and reporting quality
+Firm value,Market Characteristics & Outcomes,False,9,0,9,0,10,7. Transparency and firm value
+Mandatory IAS adoption,Financial Reporting & Disclosure,False,0,2,2,2,0,5. Investment decisions and audit oversight
+Profitability,Business Financial,False,7,4,11,4,7,4. Firm performance and investment
+Stock price,Market Characteristics & Outcomes,False,5,2,7,2,5,4. Firm performance and investment
+Equity,Business Financial,False,3,0,3,0,3,4. Firm performance and investment
+Profitability growth,Business Financial,False,0,1,1,1,0,4. Firm performance and investment
+Stock safety,Market Characteristics & Outcomes,False,0,1,1,1,0,4. Firm performance and investment
+Book-tax conformity,Tax & Financial Planning,False,0,4,4,4,0,8. Earnings management and enforcement
+Earnings quality,Corporate Governance & Control,False,5,2,7,2,5,10. Auditor choice and earnings quality
+Earnings management,Corporate Governance & Control,False,21,2,23,2,22,8. Earnings management and enforcement
+Tax regime,Tax & Financial Planning,False,0,2,2,2,0,3. Tax avoidance and investor protection
+Tax enforcement,Tax & Financial Planning,False,0,4,4,4,0,3. Tax avoidance and investor protection
+Tax evasion,Tax & Financial Planning,False,1,0,1,0,1,3. Tax avoidance and investor protection
+Price informativeness,Market Characteristics & Outcomes,False,4,0,4,0,4,10. Auditor choice and earnings quality
+Investor protection,Market Participants & Information Environment,False,0,15,15,15,0,3. Tax avoidance and investor protection
+Cross‐listed firms' SOX compliance,Oversight & Regulation,False,2,0,2,0,2,7. Transparency and firm value
+Directorial labor market,Corporate Governance & Control,False,2,0,2,0,2,3. Tax avoidance and investor protection
+Asymmetric timeliness,Financial Reporting & Disclosure,False,3,0,3,0,3,Smaller community
+Mandatory auditor reporting,Financial Reporting & Disclosure,False,0,1,1,1,0,13. Bank risk-taking and state ownership
+Bank transparency,Banking & Financial Institutions,False,0,1,1,1,0,5. Investment decisions and audit oversight
+Credit supply,Banking & Financial Institutions,False,4,0,4,0,4,5. Investment decisions and audit oversight
+Financial liquidity,Banking & Financial Institutions,False,0,1,1,1,0,5. Investment decisions and audit oversight
+Bank securitization,Banking & Financial Institutions,False,0,1,1,1,0,5. Investment decisions and audit oversight
+Foreign competition for shares,Market Participants & Information Environment,False,0,1,1,1,0,12. Cost of equity and legal environment
+Importance of debt markets,Market Characteristics & Outcomes,False,0,2,2,2,0,Outside largest component
+Timeliness,Financial Reporting & Disclosure,False,2,0,2,0,2,Outside largest component
+Conservatism,Financial Reporting & Disclosure,False,2,0,2,0,2,Outside largest component
+Importance of equity markets,Market Characteristics & Outcomes,False,0,2,2,2,0,Outside largest component
+Cross-listing,International Business & Cross-border Activities,False,2,9,11,10,2,1. IFRS adoption and market liquidity
+Cost of credit capital,Tax & Financial Planning,False,2,0,2,0,2,1. IFRS adoption and market liquidity
+Timely loss recognition,Financial Reporting & Disclosure,False,5,0,5,0,5,6. Standards differences and disclosure informativeness
+Labor adjustment costs,Economics,True,0,1,1,1,0,9. Legal regime and earnings management
+Cost stickiness,Business Financial,False,4,0,4,0,4,9. Legal regime and earnings management
+Stock recommendations,Market Participants & Information Environment,False,3,0,3,0,3,2. Analyst forecasts and reporting quality
+Future excess returns,Market Characteristics & Outcomes,False,2,1,3,1,2,2. Analyst forecasts and reporting quality
+Individual investor participation,Market Participants & Information Environment,False,0,2,2,2,0,2. Analyst forecasts and reporting quality
+Analyst characteristics,Market Participants & Information Environment,False,0,1,1,2,0,2. Analyst forecasts and reporting quality
+Legal regime,Political Science,True,0,8,8,8,0,9. Legal regime and earnings management
+Financial transparency,Corporate Governance & Control,False,2,2,4,2,2,9. Legal regime and earnings management
+Governance transparency,Corporate Governance & Control,False,2,0,2,0,2,9. Legal regime and earnings management
+Big 4 audit fees,Audit & Assurance,False,1,0,1,0,1,9. Legal regime and earnings management
+Big 4 audit fees premium,Audit & Assurance,False,1,0,1,0,1,9. Legal regime and earnings management
+Country-pair homophily,Political Science,True,0,1,1,1,0,Outside largest component
+Foreign director appointments,Corporate Governance & Control,False,1,0,1,0,1,Outside largest component
+IFRS adoption,Financial Reporting & Disclosure,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Valuation performance,Market Characteristics & Outcomes,False,1,0,1,0,1,2. Analyst forecasts and reporting quality
+Government political orientation,Political Science,True,0,1,1,1,0,12. Cost of equity and legal environment
+Democracy,Political Science,True,0,1,1,1,0,12. Cost of equity and legal environment
+Government stability,Political Science,True,0,1,1,1,0,12. Cost of equity and legal environment
+Government expropriation risk,Political Science,True,0,1,1,1,0,12. Cost of equity and legal environment
+MNC-parent incentives,Business Financial,False,0,1,1,1,0,Outside largest component
+Subsidiary earnings management,Corporate Governance & Control,False,8,0,8,0,8,Outside largest component
+MNC structure,Business Non-financial,False,0,1,1,1,0,Outside largest component
+MNC-parent balance sheet bloat,Financial Reporting & Disclosure,False,0,1,1,1,0,Outside largest component
+Subsidiary integration,Business Non-financial,False,0,1,1,1,0,Outside largest component
+Subsidiary earnings management opportunity,Corporate Governance & Control,False,0,1,1,1,0,Outside largest component
+Subsidiary country institutional quality,Political Science,True,0,1,1,1,0,Outside largest component
+Parent country institutional quality,Political Science,True,0,1,1,1,0,Outside largest component
+Regulatory arbitrage opportunities,Political Science,True,0,1,1,1,0,Outside largest component
+Tax rate,Tax & Financial Planning,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Local investment efficiency,Tax & Financial Planning,False,1,0,1,0,1,3. Tax avoidance and investor protection
+MNC listing status,International Business & Cross-border Activities,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Accounting earnings,Corporate Governance & Control,False,0,2,2,2,0,Smaller community
+Earnings opacity,Corporate Governance & Control,False,1,2,3,2,1,Smaller community
+Dividend uncertainty,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Information demand,Market Participants & Information Environment,False,1,0,1,0,1,Outside largest component
+Analyst dividend forecast,Market Participants & Information Environment,False,0,1,1,1,0,Outside largest component
+Forecast usefulness,Market Participants & Information Environment,False,1,0,1,0,1,Outside largest component
+Broker characteristics,Market Participants & Information Environment,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Institutional characteristics,Political Science,True,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Regulatory characteristics,Political Science,True,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Target price characteristics,Market Participants & Information Environment,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+EPS forecast characteristics,Market Participants & Information Environment,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Firm characteristics,Market Characteristics & Outcomes,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Mandatory disclosure,Financial Reporting & Disclosure,False,0,4,4,4,0,4. Firm performance and investment
+MNC payment to host government,Business Non-financial,False,1,0,1,0,1,4. Firm performance and investment
+Initial coin offerings,Market Characteristics & Outcomes,False,3,0,3,0,3,11. Voluntary disclosure and regulation
+Cost of capital,Tax & Financial Planning,False,1,0,1,0,1,11. Voluntary disclosure and regulation
+Regulatory harmonization,Political Science,True,0,1,1,1,0,Outside largest component
+Cross-border labor migration,Economics,True,1,0,1,0,1,Outside largest component
+Capital gain taxes,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Pricing spread,Market Characteristics & Outcomes,False,2,0,2,0,2,Outside largest component
+Arbitrage,Market Participants & Information Environment,False,0,1,1,1,0,Outside largest component
+Transfer pricing incentives,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Transfer pricing,Tax & Financial Planning,False,3,0,3,0,3,Outside largest component
+Governmental coordination,Business Non-financial,False,0,1,1,1,0,Outside largest component
+Corporate coordination,Business Non-financial,False,0,1,1,1,0,Outside largest component
+Organizational structure,Corporate Governance & Control,False,1,3,4,3,1,10. Auditor choice and earnings quality
+Earnings quality demand,Corporate Governance & Control,False,1,0,1,0,1,10. Auditor choice and earnings quality
+Disclosure regulation,Financial Reporting & Disclosure,False,0,5,5,6,0,11. Voluntary disclosure and regulation
+M&A activity,Business Non-financial,False,3,0,3,0,3,11. Voluntary disclosure and regulation
+Ownership concentration,Corporate Governance & Control,False,3,0,3,0,3,11. Voluntary disclosure and regulation
+Financial reporting opacity,Financial Reporting & Disclosure,False,0,3,3,3,0,Outside largest component
+Trading opacity,Market Characteristics & Outcomes,False,1,0,1,0,1,Outside largest component
+Stock price crash risk,Market Characteristics & Outcomes,False,2,0,2,0,2,Outside largest component
+Institutional informed trading,Market Participants & Information Environment,False,1,0,1,0,1,Outside largest component
+Country-level earnings quality,Corporate Governance & Control,False,0,1,1,1,0,11. Voluntary disclosure and regulation
+Internal governance,Corporate Governance & Control,False,0,1,1,1,0,11. Voluntary disclosure and regulation
+Information intermediaries,Market Participants & Information Environment,False,0,1,1,1,0,11. Voluntary disclosure and regulation
+IP box,Business Non-financial,False,0,1,1,1,0,Outside largest component
+M&A,Business Non-financial,False,3,0,3,0,3,Outside largest component
+IP box tax planning,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+IP box transaction cost,Business Financial,False,0,1,1,1,0,Outside largest component
+Accounting choice conformity,Financial Reporting & Disclosure,False,0,1,1,1,0,1. IFRS adoption and market liquidity
+Firm visibility,International Business & Cross-border Activities,False,0,1,1,1,0,1. IFRS adoption and market liquidity
+Analyst-country institutional infrastructure,Market Participants & Information Environment,False,0,2,2,2,0,Outside largest component
+Analyst forecast optimism,Market Participants & Information Environment,False,1,0,1,0,1,Outside largest component
+Analyst return predictivity,Market Participants & Information Environment,False,1,0,1,0,1,Outside largest component
+Financial reporting regulation,Financial Reporting & Disclosure,False,0,1,1,1,0,Outside largest component
+Industry-wide resource allocation,Business Non-financial,False,1,0,1,0,1,Outside largest component
+Managers' cultural background,Sociology,True,0,1,1,1,0,Outside largest component
+Disclosure tone,Communication,True,2,0,2,0,2,Outside largest component
+Manager exposure to different culture,Sociology,True,0,1,1,1,0,Outside largest component
+Manager collectivism,Sociology,True,0,1,1,1,0,Outside largest component
+Analyst reaction,Market Participants & Information Environment,False,2,0,2,0,2,Outside largest component
+Analyst collectivism,Sociology,True,0,1,1,1,0,Outside largest component
+Linguistic opacity,Communication,True,0,1,1,1,0,Smaller community
+Firm location,Business Non-financial,False,0,1,1,1,0,Smaller community
+Anglophone manager,Communication,True,0,1,1,1,0,Smaller community
+Regulatory environment,Political Science,True,0,1,1,1,0,8. Earnings management and enforcement
+Institutional differences in loans,Banking & Financial Institutions,False,0,5,5,5,0,Outside largest component
+Credit spread,Banking & Financial Institutions,False,1,0,1,0,1,Outside largest component
+Borrower-lender relationship,Market Participants & Information Environment,False,1,0,1,0,1,Outside largest component
+Loan syndicate,Tax & Financial Planning,False,1,0,1,0,1,Outside largest component
+Reliance on financial covenants,Tax & Financial Planning,False,1,0,1,0,1,Outside largest component
+Financial covenants,Tax & Financial Planning,False,1,0,1,0,1,Outside largest component
+Political economy,Political Science,True,0,2,2,2,0,9. Legal regime and earnings management
+Accounting discretion,Financial Reporting & Disclosure,False,0,1,1,1,0,13. Bank risk-taking and state ownership
+Enforcement regimes,Political Science,True,0,1,1,1,0,1. IFRS adoption and market liquidity
+Domestic accounting standards,Financial Reporting & Disclosure,False,0,1,1,1,0,1. IFRS adoption and market liquidity
+Auditor specialization,Audit & Assurance,False,0,1,1,1,0,8. Earnings management and enforcement
+Auditor type,Audit & Assurance,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Board independence,Corporate Governance & Control,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Political connections,Political Science,True,0,2,2,2,0,10. Auditor choice and earnings quality
+Book value,Financial Reporting & Disclosure,False,0,2,2,2,0,4. Firm performance and investment
+Expected stock returns,Market Characteristics & Outcomes,False,1,0,1,0,1,4. Firm performance and investment
+Foreign component auditors,Audit & Assurance,False,0,2,2,2,0,2. Analyst forecasts and reporting quality
+MNC valuation,Market Characteristics & Outcomes,False,1,0,1,0,1,2. Analyst forecasts and reporting quality
+Financial reporting quality,Financial Reporting & Disclosure,False,2,6,8,6,2,2. Analyst forecasts and reporting quality
+Disclosure,Financial Reporting & Disclosure,False,0,1,1,1,0,Smaller community
+Economic freedom,Political Science,True,0,3,3,3,0,4. Firm performance and investment
+Political uncertainty,Political Science,True,0,2,2,2,0,9. Legal regime and earnings management
+Investor demand for financial reporting quality,Market Participants & Information Environment,False,4,0,4,0,4,9. Legal regime and earnings management
+Electoral margin,Political Science,True,0,1,1,1,0,9. Legal regime and earnings management
+Government involvement in economy,Political Science,True,0,1,1,1,0,9. Legal regime and earnings management
+Transaction costs,Market Participants & Information Environment,False,0,1,1,1,0,9. Legal regime and earnings management
+Financing source,Tax & Financial Planning,False,0,1,1,1,0,Smaller community
+Tax incentives,Tax & Financial Planning,False,0,4,4,4,0,Smaller community
+Foreign profits,Business Financial,False,2,0,2,0,2,Smaller community
+R&D investment,Tax & Financial Planning,False,4,1,5,1,4,Smaller community
+Production location,Business Non-financial,False,2,0,2,0,2,Smaller community
+IFRS version,Financial Reporting & Disclosure,False,0,1,1,1,0,Smaller community
+Country institution,Political Science,True,0,2,2,2,0,3. Tax avoidance and investor protection
+Information usefulness,Market Characteristics & Outcomes,False,3,0,3,0,3,1. IFRS adoption and market liquidity
+Auditor quality,Audit & Assurance,False,0,1,1,1,0,9. Legal regime and earnings management
+Financial disclosure,Financial Reporting & Disclosure,False,0,2,2,2,0,6. Standards differences and disclosure informativeness
+Capital market entry,Market Characteristics & Outcomes,False,1,0,1,0,1,6. Standards differences and disclosure informativeness
+Country legal liability,Political Science,True,0,1,1,1,0,8. Earnings management and enforcement
+Capital-raising needs,Tax & Financial Planning,False,0,3,3,3,0,11. Voluntary disclosure and regulation
+Corporate debt maturity,Tax & Financial Planning,False,2,0,2,0,2,10. Auditor choice and earnings quality
+Firm transparency,Corporate Governance & Control,False,3,12,15,13,3,7. Transparency and firm value
+Country legal environment,Political Science,True,0,4,4,4,0,12. Cost of equity and legal environment
+Income smoothing,Tax & Financial Planning,False,2,0,2,0,2,12. Cost of equity and legal environment
+Foreign earnings management,Corporate Governance & Control,False,2,0,2,0,2,12. Cost of equity and legal environment
+Firm risks,Business Financial,False,0,1,1,1,0,10. Auditor choice and earnings quality
+Changes in enforcement,Oversight & Regulation,False,0,1,1,1,0,1. IFRS adoption and market liquidity
+FCPA enforcement,Oversight & Regulation,False,0,1,1,1,0,Outside largest component
+FDI in corrupt countries,Tax & Financial Planning,False,1,0,1,0,1,Outside largest component
+Domestic security regulation,Oversight & Regulation,False,0,1,1,1,0,Outside largest component
+Household equity ownership,Market Participants & Information Environment,False,3,0,3,0,3,Outside largest component
+Foreign security regulation,Oversight & Regulation,False,0,1,1,1,0,Outside largest component
+Trust in stock market,Sociology,True,0,1,1,1,0,Outside largest component
+Valuation ratios,Market Characteristics & Outcomes,False,0,3,3,3,0,Outside largest component
+Future returns,Market Characteristics & Outcomes,False,1,0,1,0,1,Outside largest component
+Future profitability,Market Characteristics & Outcomes,False,1,0,1,0,1,Outside largest component
+Future P/B ratios,Market Characteristics & Outcomes,False,1,0,1,0,1,Outside largest component
+Net transfer tax,Tax & Financial Planning,False,0,4,4,4,0,Outside largest component
+Cross-border dividend,Tax & Financial Planning,False,1,0,1,0,1,Outside largest component
+Cross-border interest,International Business & Cross-border Activities,False,1,0,1,0,1,Outside largest component
+Cross-border royalty,International Business & Cross-border Activities,False,1,0,1,0,1,Outside largest component
+Cross-border management fee,International Business & Cross-border Activities,False,1,0,1,0,1,Outside largest component
+Time trend,Market Participants & Information Environment,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Voluntary IAS adoption,Financial Reporting & Disclosure,False,0,1,1,1,0,10. Auditor choice and earnings quality
+Foreign ownership,Market Participants & Information Environment,False,1,1,2,1,1,10. Auditor choice and earnings quality
+Asset age,Business Financial,False,0,2,2,2,0,4. Firm performance and investment
+Asset turnover ratio,Business Financial,False,1,0,1,0,1,4. Firm performance and investment
+Asset turnover forecast error,Market Participants & Information Environment,False,1,1,2,1,1,4. Firm performance and investment
+Voluntary IFRS adoption,Financial Reporting & Disclosure,False,0,8,8,8,0,1. IFRS adoption and market liquidity
+Credit availability,Tax & Financial Planning,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Loan nonprice terms,Tax & Financial Planning,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Loan ownership structure,Tax & Financial Planning,False,1,0,1,0,1,1. IFRS adoption and market liquidity
+Wage savings,Economics,True,0,1,1,1,0,Smaller community
+Affiliate profitability,Business Financial,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Geographic disclosures,Financial Reporting & Disclosure,False,0,3,3,3,0,10. Auditor choice and earnings quality
+Labor investment,Economics,True,1,0,1,0,1,10. Auditor choice and earnings quality
+Fair value accounting,Financial Reporting & Disclosure,False,0,1,1,1,0,Outside largest component
+Performance evaluation role of earnings,Corporate Governance & Control,False,1,0,1,0,1,Outside largest component
+Insider trading law enforcement,Oversight & Regulation,False,0,3,3,3,0,6. Standards differences and disclosure informativeness
+Frequency of earnings reporting,Financial Reporting & Disclosure,False,0,1,1,1,0,6. Standards differences and disclosure informativeness
+Financial statement based forecast accuracy,Market Participants & Information Environment,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Concurrent enforcement changes,Oversight & Regulation,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Analyst forecast condition,Market Participants & Information Environment,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Foreign exchange risk,Business Financial,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Foreign currency hedging,Tax & Financial Planning,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Insider trading restrictions,Market Participants & Information Environment,False,0,1,1,1,0,6. Standards differences and disclosure informativeness
+CSR disclosure,Financial Reporting & Disclosure,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Stakeholder orientation,Sociology,True,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Individualism,Psychology,True,0,3,3,3,0,13. Bank risk-taking and state ownership
+Earnings momentum,Market Characteristics & Outcomes,False,2,0,2,0,2,13. Bank risk-taking and state ownership
+Accounting conservatism,Financial Reporting & Disclosure,False,3,0,3,0,3,13. Bank risk-taking and state ownership
+Uncertainty avoidance,Psychology,True,0,3,3,3,0,13. Bank risk-taking and state ownership
+Relationship-specific investment,Tax & Financial Planning,False,0,1,1,1,0,12. Cost of equity and legal environment
+Disclosure frequency,Financial Reporting & Disclosure,False,0,1,1,1,0,Outside largest component
+Market value of cash,Market Characteristics & Outcomes,False,1,0,1,0,1,Outside largest component
+Offshore operations in tax havens,Tax & Financial Planning,False,0,2,2,2,0,12. Cost of equity and legal environment
+Foreign operations located in tax havens,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+MNC corporate tax rates,Tax & Financial Planning,False,2,0,2,0,2,Outside largest component
+Foreign operations located in non-tax havens,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Corruption in subsidiary country,Political Science,True,0,1,1,1,0,Smaller community
+Foreign investment risk in subsidiary country,Tax & Financial Planning,False,0,1,1,1,0,Smaller community
+Trapped cash,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Profitability of foreign acquisitions,Business Financial,False,2,0,2,0,2,Outside largest component
+Repatriation tax holiday,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Global audit firm networks,Audit & Assurance,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+ISA adoption,Financial Reporting & Disclosure,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Economic policy uncertainty,Political Science,True,0,1,1,1,0,5. Investment decisions and audit oversight
+Firm home country,Business Non-financial,False,0,1,1,1,0,12. Cost of equity and legal environment
+Legal institutions,Political Science,True,0,1,1,1,0,10. Auditor choice and earnings quality
+Big 4 affiliates,Audit & Assurance,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Incorporation of regional coordinating agencies,Business Non-financial,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Institutional quality,Political Science,True,0,2,2,2,0,5. Investment decisions and audit oversight
+Mandatory quarterly reporting,Financial Reporting & Disclosure,False,0,1,1,1,0,Outside largest component
+Real activities manipulation,Corporate Governance & Control,False,3,1,4,1,3,Outside largest component
+Operating performance,Business Financial,False,1,0,1,0,1,Outside largest component
+Price pressure,Market Participants & Information Environment,False,0,1,1,1,0,Outside largest component
+Reporting informativeness,Financial Reporting & Disclosure,False,0,1,1,1,0,Outside largest component
+Reporting regulatory environment,Oversight & Regulation,False,0,1,1,1,0,8. Earnings management and enforcement
+Domicile,Business Non-financial,False,0,1,1,1,0,8. Earnings management and enforcement
+MiFID II implementation,Financial Reporting & Disclosure,False,0,3,3,3,0,Outside largest component
+Analyst coverage,Market Participants & Information Environment,False,2,0,2,0,2,Outside largest component
+Analyst coverage quality,Market Participants & Information Environment,False,1,0,1,0,1,Outside largest component
+Buy-side analyst research efforts,Market Participants & Information Environment,False,1,0,1,0,1,Outside largest component
+Analyst coverage importance,Market Participants & Information Environment,False,0,1,1,1,0,Outside largest component
+Foreign institutional ownership,Market Participants & Information Environment,False,2,3,5,3,2,Smaller community
+Financial reporting convergence,Financial Reporting & Disclosure,False,1,0,1,0,1,Smaller community
+CSR reporting mandate,Financial Reporting & Disclosure,False,0,4,4,4,0,Outside largest component
+CSR transparency,Financial Reporting & Disclosure,False,1,0,1,0,1,Outside largest component
+CSR activities,Corporate Governance & Control,False,1,0,1,0,1,Outside largest component
+Environmental improvement,Sociology,True,1,0,1,0,1,Outside largest component
+Social improvement,Sociology,True,1,0,1,0,1,Outside largest component
+TITF banks,Banking & Financial Institutions,False,0,1,1,1,0,Outside largest component
+Reclassification of financial assets,Financial Reporting & Disclosure,False,1,0,1,0,1,Outside largest component
+Bank-specific information environment,Banking & Financial Institutions,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Investor experience with recognized fair value,Market Participants & Information Environment,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Capital intensity,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Value-based management sophistication,Corporate Governance & Control,False,4,0,4,0,4,Outside largest component
+Firm diversification,Business Non-financial,False,0,1,1,1,0,Outside largest component
+Anglo-American institutional ownership,Market Participants & Information Environment,False,0,1,1,1,0,Outside largest component
+Value-based management environment,Corporate Governance & Control,False,0,1,1,1,0,Outside largest component
+GAAP similarity,Financial Reporting & Disclosure,False,0,1,1,1,0,11. Voluntary disclosure and regulation
+Country enforcement,Political Science,True,0,2,2,2,0,11. Voluntary disclosure and regulation
+IFRS non-adoption,Financial Reporting & Disclosure,False,3,0,3,0,3,11. Voluntary disclosure and regulation
+Interindustry resource allocation,Economics,True,1,0,1,0,1,7. Transparency and firm value
+Firm liquidity,Business Financial,False,2,1,3,1,2,7. Transparency and firm value
+Firm liquidity covariability with market liquidity,Business Financial,False,2,1,3,1,2,7. Transparency and firm value
+Firm liquidity covariability with market returns,Business Financial,False,2,1,3,1,2,7. Transparency and firm value
+Innovative effort,Tax & Financial Planning,False,3,0,3,0,3,7. Transparency and firm value
+Management turnover,Corporate Governance & Control,False,2,0,2,0,2,7. Transparency and firm value
+Innovative output,Business Non-financial,False,1,1,2,1,1,7. Transparency and firm value
+Innovative efficiency,Business Financial,False,3,0,3,0,3,7. Transparency and firm value
+Firm incentives,Business Financial,False,0,2,2,2,0,Outside largest component
+Assurance services demand,Audit & Assurance,False,2,0,2,0,2,Outside largest component
+Goodwill impairment,Financial Reporting & Disclosure,False,3,0,3,0,3,Outside largest component
+Country attributes,Political Science,True,0,1,1,1,0,Outside largest component
+Investor gender bias,Psychology,True,0,1,1,1,0,Outside largest component
+Investment,Tax & Financial Planning,False,1,0,1,0,1,Outside largest component
+Stock exchange disclosure,Financial Reporting & Disclosure,False,0,1,1,1,0,Outside largest component
+Financial market development,Market Characteristics & Outcomes,False,1,0,1,0,1,Outside largest component
+Accounting irregularity announcement,Financial Reporting & Disclosure,False,0,1,1,1,0,Smaller community
+Foreign firm,Business Non-financial,False,0,1,1,1,0,Smaller community
+Home country market reaction,Market Characteristics & Outcomes,False,0,1,1,1,0,Smaller community
+Managerial incentive,Corporate Governance & Control,False,0,1,1,1,0,Outside largest component
+Accounting enforcement system,Financial Reporting & Disclosure,False,0,1,1,1,0,Outside largest component
+Sovereign wealth fund investment,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Discretionary accruals,Financial Reporting & Disclosure,False,1,0,1,0,1,Outside largest component
+Antidumping investigation,Political Science,True,0,1,1,1,0,8. Earnings management and enforcement
+Tariff,Tax & Financial Planning,False,0,1,1,1,0,8. Earnings management and enforcement
+Geographic distance,Business Non-financial,False,0,3,3,3,0,Smaller community
+Disclosure readability,Communication,True,5,1,6,1,5,Smaller community
+Use of numbers in disclosure,Communication,True,5,1,6,1,5,Smaller community
+Imports,Business Non-financial,False,0,1,1,1,0,8. Earnings management and enforcement
+Accrual accounting,Financial Reporting & Disclosure,False,0,3,3,3,0,3. Tax avoidance and investor protection
+Corporate tax revenues,Tax & Financial Planning,False,2,0,2,0,2,3. Tax avoidance and investor protection
+Corporate sector growth,Economics,True,0,1,1,1,0,3. Tax avoidance and investor protection
+Ownership structure,Corporate Governance & Control,False,0,3,3,3,0,7. Transparency and firm value
+Private insider controlled firms,Market Participants & Information Environment,False,0,1,1,1,0,8. Earnings management and enforcement
+Asset impairment,Financial Reporting & Disclosure,False,0,1,1,1,0,6. Standards differences and disclosure informativeness
+Societal trust,Sociology,True,0,1,1,1,0,Outside largest component
+Management earnings forecast,Corporate Governance & Control,False,3,0,3,0,3,Outside largest component
+Formal institutions,Political Science,True,0,1,1,1,0,Outside largest component
+Credibility-enhancing mechanisms,Business Financial,False,0,1,1,1,0,Outside largest component
+Future-time reference language,Communication,True,0,5,5,5,0,9. Legal regime and earnings management
+Management forecast frequency,Corporate Governance & Control,False,1,0,1,0,1,9. Legal regime and earnings management
+Management forecast horizon,Corporate Governance & Control,False,1,0,1,0,1,9. Legal regime and earnings management
+Burden of proof in lawsuits,Political Science,True,0,1,1,1,0,11. Voluntary disclosure and regulation
+Agency conflict,Corporate Governance & Control,False,0,1,1,1,0,10. Auditor choice and earnings quality
+Governance institutions,Political Science,True,0,1,1,1,0,10. Auditor choice and earnings quality
+Securities regulation,Oversight & Regulation,False,0,1,1,1,0,12. Cost of equity and legal environment
+Legal enforcement,Political Science,True,0,7,7,7,0,8. Earnings management and enforcement
+Corporate scandals,Business Non-financial,False,1,1,2,1,1,Outside largest component
+Regulation,Political Science,True,1,2,3,2,1,Outside largest component
+Security mispricing,Market Characteristics & Outcomes,False,2,0,2,0,2,Outside largest component
+Information shocks,Market Participants & Information Environment,False,0,2,2,2,0,3. Tax avoidance and investor protection
+Auditor non-GAAP reliance,Audit & Assurance,False,0,2,2,2,0,5. Investment decisions and audit oversight
+Shareholder control divergence,Market Participants & Information Environment,False,0,1,1,1,0,8. Earnings management and enforcement
+Minority shareholder protection,Market Participants & Information Environment,False,0,1,1,1,0,8. Earnings management and enforcement
+Product market competition,Economics,True,0,1,1,1,0,8. Earnings management and enforcement
+Press diffusion,Sociology,True,0,1,1,1,0,8. Earnings management and enforcement
+Tax compliance,Tax & Financial Planning,False,0,1,1,1,0,8. Earnings management and enforcement
+Country-level disclosure,Financial Reporting & Disclosure,False,0,1,1,1,0,10. Auditor choice and earnings quality
+Insider trading laws,Market Participants & Information Environment,False,0,1,1,1,0,10. Auditor choice and earnings quality
+Information dissemination,Communication,True,0,1,1,1,0,10. Auditor choice and earnings quality
+Capital gain tax structure,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Long-term investment,Tax & Financial Planning,False,1,0,1,0,1,Outside largest component
+Economic growth,Economics,True,0,1,1,1,0,3. Tax avoidance and investor protection
+Service sector weight,Economics,True,0,1,1,1,0,3. Tax avoidance and investor protection
+Local audit oversight,Oversight & Regulation,False,0,1,1,1,0,5. Investment decisions and audit oversight
+Regulatory enforcement,Political Science,True,0,1,1,1,0,Outside largest component
+Anti-corruption effort,Political Science,True,4,0,4,0,4,Outside largest component
+Monitoring,Oversight & Regulation,False,0,1,1,1,0,Outside largest component
+Corruption risks,Political Science,True,0,1,1,1,0,Outside largest component
+Board governance effectiveness,Corporate Governance & Control,False,0,1,1,1,0,Outside largest component
+Cross-country product competition,Business Non-financial,False,0,1,1,1,0,4. Firm performance and investment
+Cross-country capital competition,Market Characteristics & Outcomes,False,0,1,1,1,0,4. Firm performance and investment
+Cross-country labor market competition,Economics,True,0,1,1,1,0,4. Firm performance and investment
+Creditor rights,Market Participants & Information Environment,False,0,1,1,1,0,8. Earnings management and enforcement
+Ownership-control wedge,Market Participants & Information Environment,False,0,1,1,1,0,Outside largest component
+Accounting policy disclosure,Financial Reporting & Disclosure,False,0,2,2,2,0,2. Analyst forecasts and reporting quality
+Accounting choice,Financial Reporting & Disclosure,False,0,2,2,3,0,2. Analyst forecasts and reporting quality
+Annual report disclosure,Financial Reporting & Disclosure,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Accounting standards enforcement,Financial Reporting & Disclosure,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Compliance costs,Business Non-financial,False,0,2,2,2,0,Smaller community
+Deregistration from U.S.,International Business & Cross-border Activities,False,2,0,2,0,2,Smaller community
+Loss of private benefits of control,Market Participants & Information Environment,False,0,1,1,1,0,Smaller community
+Social connections,Sociology,True,0,1,1,1,0,Outside largest component
+Business connections,Sociology,True,1,0,1,0,1,Outside largest component
+Intra-firm cross-border collaboration,Business Non-financial,False,0,1,1,1,0,Smaller community
+IP protection,Business Non-financial,False,0,1,1,1,0,Smaller community
+Innovation resources,Business Non-financial,False,0,1,1,1,0,Smaller community
+Asset use,Business Financial,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Credit rating agency market power,Market Characteristics & Outcomes,False,0,1,1,1,0,Outside largest component
+Credit rating standards stringency,Financial Reporting & Disclosure,False,1,0,1,0,1,Outside largest component
+SEC exemption,Oversight & Regulation,False,0,1,1,1,0,1. IFRS adoption and market liquidity
+Involuntary cross-listing,International Business & Cross-border Activities,False,0,1,1,1,0,7. Transparency and firm value
+Non-financial target difficulty,Business Non-financial,False,0,1,1,1,0,Outside largest component
+Target completion,Business Non-financial,False,1,0,1,0,1,Outside largest component
+Withholding tax,Tax & Financial Planning,False,0,1,1,1,0,Smaller community
+Contracting-based demand,Market Participants & Information Environment,False,0,1,1,1,0,6. Standards differences and disclosure informativeness
+Strong internal monitors,Corporate Governance & Control,False,0,1,1,1,0,6. Standards differences and disclosure informativeness
+Role of equity markets,Market Characteristics & Outcomes,False,0,1,1,1,0,6. Standards differences and disclosure informativeness
+Cross-border financing,International Business & Cross-border Activities,False,0,2,2,2,0,13. Bank risk-taking and state ownership
+Bank competition,Banking & Financial Institutions,False,1,0,1,0,1,13. Bank risk-taking and state ownership
+Analyst base-case valuation,Market Participants & Information Environment,False,0,2,2,2,0,4. Firm performance and investment
+Country-by-country reporting,Financial Reporting & Disclosure,False,0,2,2,4,0,3. Tax avoidance and investor protection
+TRA 86,Tax & Financial Planning,False,0,1,1,1,0,Smaller community
+Dividend tax change,Tax & Financial Planning,False,0,1,1,1,0,Smaller community
+Non-microcap firm,Business Financial,False,0,1,1,1,0,Smaller community
+Country transparency,Political Science,True,0,1,1,1,0,3. Tax avoidance and investor protection
+Tax surprise,Tax & Financial Planning,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Capital market interaction,Market Characteristics & Outcomes,False,0,1,1,1,0,Outside largest component
+Disclosure practice convergence,Financial Reporting & Disclosure,False,3,0,3,0,3,Outside largest component
+Product market interaction,Business Non-financial,False,0,1,1,1,0,Outside largest component
+Labor market interaction,Economics,True,0,1,1,1,0,Outside largest component
+Insider ownership,Corporate Governance & Control,False,0,1,1,1,0,6. Standards differences and disclosure informativeness
+Home bias,Psychology,True,2,0,2,0,2,6. Standards differences and disclosure informativeness
+Country-level governance,Political Science,True,0,2,2,2,0,6. Standards differences and disclosure informativeness
+Corporate takeover threat,Business Non-financial,False,0,1,1,1,0,13. Bank risk-taking and state ownership
+Audit complexity,Audit & Assurance,False,0,1,1,1,0,8. Earnings management and enforcement
+Private firm disclosure,Financial Reporting & Disclosure,False,0,1,1,1,0,Outside largest component
+Public equity demand,Market Characteristics & Outcomes,False,1,0,1,0,1,Outside largest component
+Information efficiency,Market Characteristics & Outcomes,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Analyst portfolio structure,Market Participants & Information Environment,False,3,1,4,1,3,2. Analyst forecasts and reporting quality
+Revenue potential,Business Financial,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Broker culture,Market Participants & Information Environment,False,0,1,1,1,0,2. Analyst forecasts and reporting quality
+Firm-level book-tax differences,Tax & Financial Planning,False,0,1,1,1,0,8. Earnings management and enforcement
+Loan loss provision estimates change,Banking & Financial Institutions,False,0,1,1,1,0,Outside largest component
+Future bank risk,Banking & Financial Institutions,False,1,0,1,0,1,Outside largest component
+Loan loss provision information,Banking & Financial Institutions,False,0,1,1,1,0,Smaller community
+PCAOB inspection access,Oversight & Regulation,False,0,3,3,3,0,12. Cost of equity and legal environment
+Client PCAOB inspection risk,Oversight & Regulation,False,0,1,1,1,0,5. Investment decisions and audit oversight
+Monitoring quality,Corporate Governance & Control,False,0,1,1,1,0,12. Cost of equity and legal environment
+Geo-political interest alignment with U.S.,Political Science,True,0,1,1,1,0,5. Investment decisions and audit oversight
+Corruption,Political Science,True,0,1,1,1,0,5. Investment decisions and audit oversight
+Investor information demand,Market Participants & Information Environment,False,0,1,1,1,0,1. IFRS adoption and market liquidity
+Market downturns,Market Characteristics & Outcomes,False,0,4,4,4,0,7. Transparency and firm value
+Non-local accounting standards,Financial Reporting & Disclosure,False,0,4,4,4,0,1. IFRS adoption and market liquidity
+Oversight,Oversight & Regulation,False,0,4,4,4,0,1. IFRS adoption and market liquidity
+Information uncertainty,Psychology,True,0,1,1,1,0,Outside largest component
+Political environment,Political Science,True,0,1,1,1,0,9. Legal regime and earnings management
+Directors' shareholder friendliness,Corporate Governance & Control,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Tax havens,Tax & Financial Planning,False,0,1,1,1,0,12. Cost of equity and legal environment
+Firm tax risk,Tax & Financial Planning,False,0,1,1,1,0,12. Cost of equity and legal environment
+Firm information risk,Market Participants & Information Environment,False,0,1,1,1,0,12. Cost of equity and legal environment
+Country exposure,Business Non-financial,False,0,2,2,2,0,4. Firm performance and investment
+Firm fundamentals forecast,Corporate Governance & Control,False,1,0,1,0,1,4. Firm performance and investment
+Corporate governance reforms,Corporate Governance & Control,False,0,3,3,3,0,1. IFRS adoption and market liquidity
+Management learning,Psychology,True,0,1,1,1,0,4. Firm performance and investment
+Firm listing status,Business Financial,False,0,3,3,3,0,Smaller community
+English-speaking country,Communication,True,0,2,2,2,0,Smaller community
+Accounting distance,Financial Reporting & Disclosure,False,0,2,2,2,0,Smaller community
+Investor protection distance,Business Non-financial,False,0,2,2,2,0,Smaller community
+Fair value reporting,Financial Reporting & Disclosure,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Reliability of fair value measures,Financial Reporting & Disclosure,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Investor information cost,Market Participants & Information Environment,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Shareholder-empowering governance regulations,Corporate Governance & Control,False,0,2,2,2,0,Outside largest component
+Shareholder activism,Market Participants & Information Environment,False,1,0,1,0,1,Outside largest component
+Corporate outcomes,Business Financial,False,1,0,1,0,1,Outside largest component
+Foreign reinvestment,Tax & Financial Planning,False,0,1,1,1,0,3. Tax avoidance and investor protection
+Country-level tax,Tax & Financial Planning,False,0,1,1,1,0,4. Firm performance and investment
+Innovation,Business Financial,False,0,1,1,1,0,4. Firm performance and investment
+Open borders,Political Science,True,0,1,1,1,0,4. Firm performance and investment
+Joint provision of CSR and financial assurance service,Audit & Assurance,False,0,1,1,1,0,Outside largest component
+Auditors' CSR risk assessment,Audit & Assurance,False,1,0,1,0,1,Outside largest component
+Transfer pricing risk,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Cross-border M&A premium,International Business & Cross-border Activities,False,2,0,2,0,2,Outside largest component
+Expected transfer pricing tax benefit,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Audit profession development,Audit & Assurance,False,0,2,2,2,0,10. Auditor choice and earnings quality
+Foreign enforcement regime,Oversight & Regulation,False,0,1,1,1,0,Outside largest component
+SEC monitoring,Oversight & Regulation,False,2,0,2,0,2,Outside largest component
+U.S. investor exposure,Market Participants & Information Environment,False,0,1,1,1,0,Outside largest component
+Foreign operations,Business Non-financial,False,0,1,1,1,0,6. Standards differences and disclosure informativeness
+Domestic peers,Business Non-financial,False,0,1,1,1,0,6. Standards differences and disclosure informativeness
+Creditor protection,Market Participants & Information Environment,False,0,1,1,1,0,Smaller community
+Accruals persistence,Financial Reporting & Disclosure,False,0,1,1,1,0,4. Firm performance and investment
+Implementation issues,Financial Reporting & Disclosure,False,0,1,1,1,0,11. Voluntary disclosure and regulation
+Reporting incentives,Financial Reporting & Disclosure,False,0,2,2,2,0,11. Voluntary disclosure and regulation
+Perceived network benefits,Psychology,True,0,1,1,1,0,1. IFRS adoption and market liquidity
+Company credibility need,Psychology,True,0,2,2,2,0,Outside largest component
+Sustainability report assurance,Audit & Assurance,False,2,0,2,0,2,Outside largest component
+Choice of assurance provider,Audit & Assurance,False,2,0,2,0,2,Outside largest component
+Country business culture,Sociology,True,0,2,2,2,0,Outside largest component
+Embedded value reporting,Financial Reporting & Disclosure,False,4,1,5,1,4,7. Transparency and firm value
+Embedded value reporting quality,Financial Reporting & Disclosure,False,0,1,1,1,0,7. Transparency and firm value
+Takeover markets,Market Characteristics & Outcomes,False,0,1,1,1,0,7. Transparency and firm value
+Managerial avoidance of volatile income measures,Psychology,True,0,1,1,1,0,7. Transparency and firm value
+Regulatory intervention risk,Political Science,True,0,1,1,1,0,7. Transparency and firm value
+Analysts’ information advantage,Market Participants & Information Environment,False,0,1,1,1,0,7. Transparency and firm value
+Corporate tax policy,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Macroeconomic growth,Economics,True,3,0,3,0,3,Outside largest component
+Government tax incentives,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Corporate tax planning,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+PCAOB inspection result,Oversight & Regulation,False,0,2,2,2,0,5. Investment decisions and audit oversight
+Growth opportunity,Market Characteristics & Outcomes,False,0,1,1,1,0,5. Investment decisions and audit oversight
+Cross-border frictions,Political Science,True,0,1,1,1,0,5. Investment decisions and audit oversight
+Parent firm involvement,Corporate Governance & Control,False,0,1,1,1,0,5. Investment decisions and audit oversight
+SEC enforcement,Oversight & Regulation,False,0,1,1,1,0,Outside largest component
+Non-target firm valuation,Market Characteristics & Outcomes,False,1,0,1,0,1,Outside largest component
+Tail risk,Banking & Financial Institutions,False,0,1,1,1,0,Smaller community
+Familiarity with firm's home country,Psychology,True,0,1,1,1,0,11. Voluntary disclosure and regulation
+Investment horizon,Tax & Financial Planning,False,0,1,1,1,0,11. Voluntary disclosure and regulation
+Economic integration,Political Science,True,0,1,1,1,0,4. Firm performance and investment
+MNC tax incentives,Tax & Financial Planning,False,0,1,1,1,0,Outside largest component
+Offshored job location,Economics,True,3,0,3,0,3,Outside largest component
+Within-firm offshored jobs,Economics,True,0,1,1,1,0,Outside largest component
+Politically sensitive jobs,Economics,True,0,1,1,1,0,Outside largest component
+Job offshoring,Economics,True,0,1,1,1,0,Outside largest component
+Tax burdens,Tax & Financial Planning,False,1,0,1,0,1,Outside largest component
+Financial reporting enforcement,Financial Reporting & Disclosure,False,0,1,1,1,0,Smaller community
+Firm compliance incentive,Corporate Governance & Control,False,0,1,1,1,0,Smaller community
+Accounting changes,Financial Reporting & Disclosure,False,0,1,1,1,0,Smaller community
+Loss provision de-recognition,Banking & Financial Institutions,False,0,1,1,1,0,Smaller community
+Financial reporting environment,Financial Reporting & Disclosure,False,0,1,1,1,0,Outside largest component
+Capital mobility,International Business & Cross-border Activities,False,1,0,1,0,1,Outside largest component
+Institutional distances,Business Non-financial,False,0,1,1,1,0,Outside largest component
+Reliance on formal controls,Corporate Governance & Control,False,1,0,1,0,1,Outside largest component
+Non-audit services,Business Financial,False,0,1,1,1,0,4. Firm performance and investment
+Business complexity,Business Non-financial,False,0,1,1,1,0,4. Firm performance and investment
+Policy extension period,Financial Reporting & Disclosure,False,0,1,1,1,0,4. Firm performance and investment
+Compensation structure,Corporate Governance & Control,False,0,1,1,1,0,4. Firm performance and investment
+Managerial career risks,Psychology,True,0,1,1,1,0,7. Transparency and firm value
+Investment opportunity,Tax & Financial Planning,False,0,1,1,1,0,7. Transparency and firm value
+Monitoring demand,Corporate Governance & Control,False,0,1,1,1,0,7. Transparency and firm value
+Proprietary cost,Business Non-financial,False,0,1,1,1,0,7. Transparency and firm value
