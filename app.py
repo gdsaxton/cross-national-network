@@ -110,6 +110,35 @@ def relationship_table(sub):
     return pd.DataFrame(rows).sort_values(["Hypotheses", "Determinant"], ascending=[False, True]).reset_index(drop=True)
 
 
+
+def match_concepts(q, names):
+    """Concepts whose name contains q, ranked: exact name first, then whole-word
+    matches, then any substring. Case-insensitive."""
+    q = q.strip().lower()
+    if not q:
+        return []
+    import re as _re
+    word = _re.compile(r"\b" + _re.escape(q) + r"\b")
+    hits = [n for n in names if q in n.lower()]
+    rank = lambda n: (0 if n.lower() == q else 1 if word.search(n.lower()) else 2, n.lower())
+    return sorted(hits, key=rank)
+
+
+def pick_concepts(q, matches, key):
+    """Let the reader narrow a broad search to the concept(s) they meant.
+    Defaults to the exact match when the search text is a full concept name."""
+    exact = [n for n in matches if n.lower() == q.strip().lower()]
+    if len(matches) == 1:
+        return matches
+    return st.multiselect(
+        f"{len(matches)} concepts contain \u201c{q.strip()}\u201d. Show results for:",
+        matches, default=exact or matches, key=key,
+        help="Remove concepts to narrow the results; add them back to widen.")
+
+
+TABLE_TIP = ("The magnifying glass in a table's top-right corner highlights matching cells "
+             "without removing other rows. Use the search box and concept selector above to filter.")
+
 # ------------------------------------------------------------------ sidebar
 st.sidebar.title("Cross-national accounting research network")
 view = st.sidebar.radio("View", ["Full network", "Concept search", "Category map (Figure 6)", "Discipline network (Figure 8)", "Study lookup", "About the data"])
@@ -141,14 +170,16 @@ elif view == "Concept search":
     st.header("Concept search and ego networks")
     q = st.text_input("Search for a concept (any part of the name, case-insensitive)", "government")
     radius = st.radio("Neighborhood", ["Direct relationships only", "Two steps"], horizontal=True)
-    matches = sorted(n for n in G if q.strip().lower() in n.lower()) if q.strip() else []
+    matches = match_concepts(q, G.nodes())
     if not q.strip():
         st.info("Type part of a concept name, for example *IFRS*, *earnings*, or *government*.")
     elif not matches:
         st.warning("No concept name contains that text. Try a shorter fragment.")
     else:
-        st.write(f"**{len(matches)} matching concept{'s' if len(matches) > 1 else ''}:** " + ", ".join(matches))
-        focal = set(matches)
+        focal = set(pick_concepts(q, matches, key="concept_pick"))
+        if not focal:
+            st.info("Select at least one concept above.")
+            st.stop()
         nbr = set(focal)
         for n in focal:
             nbr |= set(G.predecessors(n)) | set(G.successors(n))
@@ -167,6 +198,7 @@ elif view == "Concept search":
         st.subheader("Relationships involving the matching concepts")
         focal_edges = sub.edge_subgraph([(u, v) for u, v in sub.edges() if u in focal or v in focal])
         st.dataframe(relationship_table(focal_edges), use_container_width=True, hide_index=True)
+        st.caption(TABLE_TIP)
 
 # ================================================================== 3. category map
 elif view == "Category map (Figure 6)":
@@ -235,16 +267,31 @@ elif view == "Study lookup":
     st.header("Which studies test a relationship involving a term?")
     q = st.text_input("Word or phrase (matched against determinant and outcome concept names)", "government")
     if q.strip():
-        m = arts[arts.source.str.contains(q, case=False, regex=False) | arts.target.str.contains(q, case=False, regex=False)].copy()
-        if m.empty:
+        matches = match_concepts(q, sorted(set(arts.source) | set(arts.target)))
+        if not matches:
             st.warning("No hypothesized relationship involves a concept containing that text.")
         else:
-            m["relationship"] = m["source"] + " \u2192 " + m["target"]
-            st.write(f"**{m['article_id'].nunique()} articles** test **{m['relationship'].nunique()} distinct relationships** involving \u201c{q}\u201d ({len(m)} hypotheses).")
-            show = m[["citation", "authors", "year", "journal", "title", "relationship", "doi"]].sort_values(["year", "citation"]).reset_index(drop=True)
-            st.dataframe(show, use_container_width=True, hide_index=True,
-                         column_config={"doi": st.column_config.LinkColumn("DOI", display_text="link"), "citation": "Study", "authors": "Authors", "year": "Year", "journal": "Journal", "title": "Title", "relationship": "Relationship"})
-            st.download_button("Download these rows as CSV", show.to_csv(index=False).encode(), file_name=f"studies_{q.strip().replace(' ', '_')}.csv")
+            chosen = pick_concepts(q, matches, key="study_pick")
+            m = arts[arts.source.isin(chosen) | arts.target.isin(chosen)].copy()
+            if m.empty:
+                st.info("Select at least one concept above.")
+            else:
+                m["relationship"] = m["source"] + " \u2192 " + m["target"]
+                # rows for the best-matching concept first, then by year
+                order = {n: i for i, n in enumerate(matches)}
+                m["_rank"] = [min(order.get(a, 99), order.get(b, 99)) for a, b in zip(m.source, m.target)]
+                st.write(f"**{m['article_id'].nunique()} article{'s' if m['article_id'].nunique() != 1 else ''}** test "
+                         f"**{m['relationship'].nunique()} distinct relationship{'s' if m['relationship'].nunique() != 1 else ''}** "
+                         f"involving the selected concept{'s' if len(chosen) != 1 else ''} ({len(m)} hypothes{'is' if len(m) == 1 else 'es'}).")
+                show = (m.sort_values(["_rank", "year", "citation"])
+                         [["citation", "authors", "year", "journal", "title", "relationship", "doi"]].reset_index(drop=True))
+                st.dataframe(show, use_container_width=True, hide_index=True,
+                             column_config={"doi": st.column_config.LinkColumn("DOI", display_text="link"), "citation": "Study",
+                                            "authors": "Authors", "year": "Year", "journal": "Journal", "title": "Title",
+                                            "relationship": "Relationship"})
+                st.caption(TABLE_TIP)
+                st.download_button("Download these rows as CSV", show.to_csv(index=False).encode(),
+                                   file_name=f"studies_{q.strip().replace(' ', '_')}.csv")
 
 # ================================================================== 6. about
 else:
