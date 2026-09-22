@@ -22,21 +22,3 @@ study lookup that returns every sampled article testing a relationship involving
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-## Deploy anonymously
-
-`anonymous.4open.science` mirrors a repository's *code* for double-blind review; it does not run
-applications. The app therefore needs two links:
-
-1. **Code (anonymized).** Push this folder to a GitHub repository under an account that does not
-   identify the authors, then create an anonymized mirror at https://anonymous.4open.science/
-   and cite that URL for the code and data.
-2. **Running app.** Deploy the same repository on Streamlit Community Cloud (https://share.streamlit.io):
-   New app, select the repository and `app.py`, and under *Advanced settings* set a custom
-   subdomain (for example `cross-national-network`). The public URL is then
-   `https://cross-national-network.streamlit.app`, which does not expose the GitHub account name.
-   Use a repository and account created for this purpose; the default Streamlit URL pattern embeds
-   the account name, so set the subdomain before sharing.
-
-Neither link contains author names. The data files contain only bibliographic information about
-the sampled articles.
