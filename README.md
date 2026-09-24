@@ -15,6 +15,7 @@ study lookup that returns every sampled article testing a relationship involving
 | `data/edges.csv` | 683 unique relationships: `source`, `target`, `hypotheses` |
 | `data/nodes.csv` | 575 concepts: category, external flag, degrees, hypothesis counts, research stream |
 | `data/article_relationships.csv` | 701 hypotheses: one row per article and relationship, with citation, journal, title, DOI |
+| `data/studies.csv` | 262 articles: APA reference string, year, journal, hypothesis count |
 
 ## Run locally
 
