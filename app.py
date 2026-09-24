@@ -6,6 +6,7 @@ Five views, chosen in the sidebar:
   3. Category map        - the 16-category collapsed network (interactive Figure 6) with a threshold slider
   4. Discipline network  - the Political Science sub-network (interactive Figure 8), aggregated or individual
   5. Study lookup        - every sampled article testing a relationship whose concepts match a word or phrase
+  6. All 262 studies     - the full reference list, APA style, searchable
 
 Data files live in ./data and are produced by the accompanying notebook from the master coding file.
 Network drawings use pyvis (vis.js) with the same conventions as the manuscript figures.
@@ -15,6 +16,7 @@ import streamlit.components.v1 as components
 import pandas as pd
 import networkx as nx
 from pyvis.network import Network
+import re
 import textwrap
 
 # ------------------------------------------------------------------ constants
@@ -38,15 +40,16 @@ def load_data():
     edges = pd.read_csv("data/edges.csv")
     nodes = pd.read_csv("data/nodes.csv")
     arts = pd.read_csv("data/article_relationships.csv")
+    studies = pd.read_csv("data/studies.csv")
     G = nx.DiGraph()
     for r in nodes.itertuples():
         G.add_node(r.node, category=r.category, external=bool(r.external), stream=r.stream, degree=int(r.degree))
     for r in edges.itertuples():
         G.add_edge(r.source, r.target, weight=int(r.hypotheses))
-    return edges, nodes, arts, G
+    return edges, nodes, arts, studies, G
 
 
-edges, nodes, arts, G = load_data()
+edges, nodes, arts, studies, G = load_data()
 category = dict(zip(nodes["node"], nodes["category"]))
 stream = dict(zip(nodes["node"], nodes["stream"]))
 stream_names = sorted(s for s in set(stream.values()) if s[0].isdigit())
@@ -141,7 +144,8 @@ TABLE_TIP = ("The magnifying glass in a table's top-right corner highlights matc
 
 # ------------------------------------------------------------------ sidebar
 st.sidebar.title("Cross-national accounting research network")
-view = st.sidebar.radio("View", ["Full network", "Concept search", "Category map (Figure 6)", "Discipline network (Figure 8)", "Study lookup", "About the data"])
+view = st.sidebar.radio("View", ["Full network", "Concept search", "Category map (Figure 6)", "Discipline network (Figure 8)",
+                                 "Study lookup", "All 262 studies", "About the data"])
 st.sidebar.markdown("---")
 st.sidebar.caption("575 concepts, 683 unique hypothesized relationships, 701 hypotheses, 262 articles in six journals, 1973 to 2022. "
                    "Arrows run from determinant (independent variable) to outcome (dependent variable). Hover a node or edge for details; drag to rearrange; scroll to zoom.")
@@ -293,7 +297,30 @@ elif view == "Study lookup":
                 st.download_button("Download these rows as CSV", show.to_csv(index=False).encode(),
                                    file_name=f"studies_{q.strip().replace(' ', '_')}.csv")
 
-# ================================================================== 6. about
+# ================================================================== 6. all studies
+elif view == "All 262 studies":
+    st.header("The 262 articles in the sample")
+    st.write("Every article coded for the network, in APA style. Each entry notes how many hypotheses it contributes.")
+    q = st.text_input("Filter by author, title, journal, or year", "")
+    shown = studies if not q.strip() else studies[studies.apa.str.contains(q.strip(), case=False, regex=False)]
+    if shown.empty:
+        st.warning("No article matches that text.")
+    else:
+        if q.strip():
+            st.caption(f"{len(shown)} of 262 articles match \u201c{q.strip()}\u201d.")
+        # the stored APA strings mark italics with *...*, as markdown does
+        def to_html(t):
+            return re.sub(r"\*([^*]+)\*", r"<em>\1</em>", t)
+        items = "".join(
+            f'<p style="text-indent:-2em;padding-left:2em;margin:0 0 0.75em 0;line-height:1.45">{to_html(r.apa)}'
+            f'<span style="color:#888"> [{r.hypotheses} hypothes{"is" if r.hypotheses == 1 else "es"}]</span></p>'
+            for r in shown.itertuples())
+        st.markdown(f'<div style="font-size:0.95rem">{items}</div>', unsafe_allow_html=True)
+        st.download_button("Download the reference list as CSV",
+                           shown[["article_id", "apa", "year", "journal", "hypotheses"]].to_csv(index=False).encode(),
+                           file_name="cross_national_studies.csv")
+
+# ================================================================== 7. about
 else:
     st.header("About the data")
     st.markdown("""
