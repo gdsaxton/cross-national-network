@@ -234,7 +234,7 @@ elif view == "Category map (Figure 7)":
 elif view == "Discipline network (Figure 9)":
     st.header("Sub-network of an external discipline")
     disc = st.selectbox("Discipline", EXT, index=0)
-    mode = st.radio("Show the discipline's concepts as", ["One aggregated node (as in Figure 8)", "Individual concepts"], horizontal=True)
+    mode = st.radio("Show the discipline's concepts as", ["One aggregated node (as in Figure 9)", "Individual concepts"], horizontal=True)
     D = {n for n in G if category[n] == disc}
     nbr = set()
     for n in D:
