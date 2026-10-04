@@ -3,8 +3,8 @@
 Five views, chosen in the sidebar:
   1. Full network        - all 575 concepts and 683 relationships, colored by category or research stream
   2. Concept search      - ego network and relationship table for any concept matching a search term
-  3. Category map        - the 16-category collapsed network (interactive Figure 6) with a threshold slider
-  4. Discipline network  - the Political Science sub-network (interactive Figure 8), aggregated or individual
+  3. Category map        - the 16-category collapsed network (interactive Figure 7) with a threshold slider
+  4. Discipline network  - the Political Science sub-network (interactive Figure 9), aggregated or individual
   5. Study lookup        - every sampled article testing a relationship whose concepts match a word or phrase
   6. All 262 studies     - the full reference list, APA style, searchable
 
@@ -144,7 +144,7 @@ TABLE_TIP = ("The magnifying glass in a table's top-right corner highlights matc
 
 # ------------------------------------------------------------------ sidebar
 st.sidebar.title("Cross-national accounting research network")
-view = st.sidebar.radio("View", ["Full network", "Concept search", "Category map (Figure 6)", "Discipline network (Figure 8)",
+view = st.sidebar.radio("View", ["Full network", "Concept search", "Category map (Figure 7)", "Discipline network (Figure 9)",
                                  "Study lookup", "All 262 studies", "About the data"])
 st.sidebar.markdown("---")
 st.sidebar.caption("575 concepts, 683 unique hypothesized relationships, 701 hypotheses, 262 articles in six journals, 1973 to 2022. "
@@ -205,7 +205,7 @@ elif view == "Concept search":
         st.caption(TABLE_TIP)
 
 # ================================================================== 3. category map
-elif view == "Category map (Figure 6)":
+elif view == "Category map (Figure 7)":
     st.header("Category-level map of the network")
     st.write("All 575 concepts collapsed to their 16 categories (11 accounting and finance areas, 5 external disciplines), with relationships aggregated between them. "
              "Node size and edge width scale with the number of unique relationships. Within-category relationships are not drawn.")
@@ -231,7 +231,7 @@ elif view == "Category map (Figure 6)":
     draw(ns, es, height=700, spring=180, legend=leg, label_wrap=22, font=14)
 
 # ================================================================== 4. discipline network
-elif view == "Discipline network (Figure 8)":
+elif view == "Discipline network (Figure 9)":
     st.header("Sub-network of an external discipline")
     disc = st.selectbox("Discipline", EXT, index=0)
     mode = st.radio("Show the discipline's concepts as", ["One aggregated node (as in Figure 8)", "Individual concepts"], horizontal=True)
